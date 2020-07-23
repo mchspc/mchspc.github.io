@@ -1,5 +1,5 @@
 .container {
-    background: radial-gradient(ellipse at bottom, #f6d7ff 0%, #ffffff 100%);
+    background: radial-gradient(ellipse at bottom, rgb(59, 45, 80) 0%, rgb(14, 14, 15) 80%);
     height: 100vh;
     overflow: hidden;
     position: absolute;
@@ -35,7 +35,7 @@
     top: 50%;
     // width: 100px;
     height: 2px;
-    background: linear-gradient(-45deg, rgb(226, 255, 95), rgba(255, 238, 0, 0));
+    background: linear-gradient(-45deg, rgb(225, 226, 221), rgba(255, 238, 0, 0));
     border-radius: 999px;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
     animation:
@@ -49,7 +49,7 @@
       right: 0;
       // width: 30px;
       height: 2px;
-      background: linear-gradient(-45deg, rgba(111, 0, 255, 0), rgb(255, 252, 95), rgba(111, 0, 255, 0));
+      background: linear-gradient(-45deg, rgba(111, 0, 255, 0), rgb(231, 231, 231), rgba(111, 0, 255, 0));
       transform: translateX(50%) rotateZ(45deg);
       border-radius: 100%;
       animation: shining $shooting-time ease-in-out infinite;

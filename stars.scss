@@ -17,7 +17,8 @@
   
   .right-align {
       position: absolute;
-      right: 350px;
+    //   right: 350px;
+      align-content: flex-end;
   }
 
   .night {

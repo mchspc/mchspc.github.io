@@ -23,7 +23,8 @@ main {
     // //   right: 350px;
     //   align-content: flex-start;
     // justify-content: start;
-    align-content: left;
+    align-content: center;
+    text-align: center;
     // margin-left: 100px;
 }
 
@@ -53,6 +54,7 @@ main {
     // padding-right: 200px;
     // align-content: right;
     // padding-right: 100px;
+    z-index: -5;
 }
 nav ul{
     list-style: none;
@@ -84,3 +86,6 @@ nav a:hover{
   .btn3:hover::before{
     height: 380%;
   }
+.btn{
+
+}

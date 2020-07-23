@@ -21,8 +21,9 @@ main {
 
 .right-welcome {
   position: absolute;
-  -ms-flex-line-pack: left;
-      align-content: left;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
 }
 
 #background-boi {
@@ -46,6 +47,10 @@ main {
   margin: 0 auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.boxy-boi {
+  z-index: -5;
 }
 
 nav ul {

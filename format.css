@@ -24,6 +24,7 @@ main {
   -ms-flex-line-pack: center;
       align-content: center;
   text-align: center;
+  font-family: 'Red Rose', cursive;
 }
 
 #background-boi {

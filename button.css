@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #32323c;
+  background-color: #e9e9e9;
 }
 
 .container {
@@ -55,14 +55,14 @@ button::after, button::before {
 
 .shrink-border {
   background-color: transparent;
-  color: #1b1b20;
+  color: #d0d0d0;
 }
 
 .shrink-border:hover {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #e6e6e6;
+  color: #C77DFF;
 }
 
 .shrink-border::before {
@@ -72,7 +72,7 @@ button::after, button::before {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 3px solid #1b1b20;
+  border: 3px solid #d0d0d0;
   -webkit-transition: opacity 0.3s, border 0.3s;
   transition: opacity 0.3s, border 0.3s;
 }
@@ -89,7 +89,7 @@ button::after, button::before {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  border: 3px solid #e6e6e6;
+  border: 3px solid #C77DFF;
   opacity: 0;
   z-index: -1;
   -webkit-transform: scaleX(1.1) scaleY(1.3);
@@ -108,7 +108,7 @@ button::after, button::before {
 
 .material-bubble {
   background-color: transparent;
-  color: #1b1b20;
+  color: #d0d0d0;
   border: none;
   overflow: hidden;
   -webkit-box-shadow: none;
@@ -116,7 +116,7 @@ button::after, button::before {
 }
 
 .material-bubble:hover {
-  color: #e6e6e6;
+  color: #e9e9e9;
 }
 
 .material-bubble::before {
@@ -126,7 +126,7 @@ button::after, button::before {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 3px solid #1b1b20;
+  border: 3px solid #d0d0d0;
   -webkit-transition: opacity 0.3s, border 0.3s;
   transition: opacity 0.3s, border 0.3s;
 }
@@ -142,7 +142,7 @@ button::after, button::before {
   left: 0;
   width: 200px;
   height: 200px;
-  background-color: #494958;
+  background-color: #ddb0ff;
   border-color: transparent;
   border-radius: 50%;
   -webkit-transform: translate(-10px, -70px) scale(0.1);

@@ -16,15 +16,29 @@ nav {
 }
 
 main {
-  padding-top: 45px;
+  margin-top: 45px;
 }
 
 .right-welcome {
   position: absolute;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  text-align: center;
-  font-family: 'Red Rose', cursive;
+  width: 100vw;
+  height: 100vh;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -12%);
+          transform: translate(-50%, -12%);
+  font-family: 'Viga', sans-serif;
+  font-size: 25px;
+}
+
+a.animated-button.victoria-two {
+  border: 2px solid #D24D57;
+}
+
+a.animated-button.victoria-two:after {
+  background: #D24D57;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(25deg);
+  transform: translateX(-50%) translateY(-50%) rotate(25deg);
 }
 
 #background-boi {

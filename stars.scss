@@ -1,5 +1,6 @@
 $back: #240046;
 $comet: #f0f2ff;
+// $comet: #d942ff;
 .container {
     // background: radial-gradient(ellipse at bottom,#1b2735 0%, #090a0f 100%);
     // background: snow;
@@ -40,6 +41,7 @@ $comet: #f0f2ff;
     // width: 100px;
     height: 2px;
     background: linear-gradient(-45deg, $comet, rgba(255, 238, 0, 0));
+    // background: linear-gradient(-45deg,rgba(255, 238, 0, 0), $comet);
     border-radius: 999px;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
     animation:
@@ -54,6 +56,9 @@ $comet: #f0f2ff;
       // width: 30px;
       height: 2px;
       background: linear-gradient(-45deg, $comet, rgb(255, 233, 233), rgba(236, 222, 255, 0));
+      // background: linear-gradient(-45deg, rgba(255, 238, 0, 0),$comet, rgba(236, 235, 0));
+      // background: linear-gradient(-45deg, rgb(255, 255, 255),$comet, rgba(236, 222, 255, 0));
+
       transform: translateX(50%) rotateZ(45deg);
       border-radius: 100%;
       animation: shining $shooting-time ease-in-out infinite;

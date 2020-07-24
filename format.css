@@ -16,6 +16,7 @@ nav {
 
 h1 {
   font-size: 33px;
+  color: #ffffff;
 }
 
 main {
@@ -28,9 +29,9 @@ main {
   height: 100vh;
   left: 50%;
   top: 50%;
-  color: #6610F2;
-  -webkit-transform: translate(-75%, -12%);
-          transform: translate(-75%, -12%);
+  color: #5d09e4;
+  -webkit-transform: translate(-50%, -12%);
+          transform: translate(-50%, -12%);
   font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -71,10 +72,10 @@ a.animated-button.victoria-two:after {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  right: 50%;
+  left: 50%;
   top: 50%;
-  -webkit-transform: translate(70%, -50%);
-          transform: translate(70%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: -5;
 }
 

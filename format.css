@@ -5,7 +5,6 @@ body {
 }
 
 nav {
-  background: #44355B;
   position: fixed;
   top: 0;
   width: 100%;
@@ -13,6 +12,10 @@ nav {
   font-size: 17px;
   color: white;
   text-align: center;
+}
+
+h1 {
+  font-size: 33px;
 }
 
 main {
@@ -25,10 +28,10 @@ main {
   height: 100vh;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -12%);
-          transform: translate(-50%, -12%);
-  font-family: 'Viga', sans-serif;
-  font-size: 25px;
+  color: #6610F2;
+  -webkit-transform: translate(-75%, -12%);
+          transform: translate(-75%, -12%);
+  font-family: 'Roboto Mono', sans-serif;
 }
 
 a.animated-button.victoria-two {
@@ -65,6 +68,13 @@ a.animated-button.victoria-two:after {
 }
 
 .boxy-boi {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  right: 50%;
+  top: 50%;
+  -webkit-transform: translate(70%, -50%);
+          transform: translate(70%, -50%);
   z-index: -5;
 }
 

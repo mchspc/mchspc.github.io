@@ -1,5 +1,8 @@
+$back: #10002B;
 .container {
-    background: radial-gradient(ellipse at bottom,#1b2735 0%, #090a0f 100%);
+    // background: radial-gradient(ellipse at bottom,#1b2735 0%, #090a0f 100%);
+    // background: snow;
+    background: $back;
     height: 100vh;
     overflow: hidden;
     position: absolute;
@@ -35,7 +38,7 @@
     top: 50%;
     // width: 100px;
     height: 2px;
-    background: linear-gradient(-45deg, rgb(225, 226, 221), rgba(255, 238, 0, 0));
+    background: linear-gradient(-45deg, rgb(171, 115, 189), rgba(255, 238, 0, 0));
     border-radius: 999px;
     filter: drop-shadow(0 0 6px rgba(105, 155, 255, 1));
     animation:
@@ -49,7 +52,7 @@
       right: 0;
       // width: 30px;
       height: 2px;
-      background: linear-gradient(-45deg, rgba(111, 0, 255, 0), rgb(231, 231, 231), rgba(111, 0, 255, 0));
+      background: linear-gradient(-45deg, rgba(111, 0, 255, 0), rgb(121, 52, 138), rgba(111, 0, 255, 0));
       transform: translateX(50%) rotateZ(45deg);
       border-radius: 100%;
       animation: shining $shooting-time ease-in-out infinite;

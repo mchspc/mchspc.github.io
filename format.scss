@@ -15,6 +15,23 @@ nav {
     font-size: 17px;
     color: white;
     text-align: center;
+    animation: fadein 1s both;
+    transition: .2s ease;
+}
+
+@keyframes fadein{
+    0% {
+        opacity:0;
+        transform:translateY(5px)
+    }
+    25% {
+        opacity:0;
+        transform:translateY(20px)
+    }
+    100%{
+        opacity:1;
+        transform:translateY(0)
+    }
 }
 
 h1 {
@@ -43,6 +60,10 @@ main {
     // margin-left: 100px;
     font-family: 'Oxygen', sans-serif;
 
+}
+
+.active {
+    color: #e0aaff !important;
 }
 
 .landing-title {
@@ -104,6 +125,7 @@ nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    color: white
 }
 nav li{
     display: inline-block;
@@ -111,6 +133,7 @@ nav li{
     margin: 9px 22px;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
+    z-index: 50;
 
 }
 

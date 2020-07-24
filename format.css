@@ -19,19 +19,13 @@ h1 {
   color: #ffffff;
 }
 
-main {
-  margin-top: 45px;
+.right-welcome {
+  color: #5d09e4;
+  font-family: 'Oxygen', sans-serif;
 }
 
-.right-welcome {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  left: 50%;
-  top: 50%;
-  color: #5d09e4;
-  -webkit-transform: translate(-50%, -20%);
-          transform: translate(-50%, -20%);
+.landing-title {
+  z-index: 10;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -51,6 +45,8 @@ a.animated-button.victoria-two:after {
   height: 100vh;
   position: absolute;
   top: 0;
+  margin: 0;
+  padding: 0;
   left: 0;
 }
 

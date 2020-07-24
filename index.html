@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="format.css">
     <link rel="stylesheet" href="waves.css">
     <link rel="stylesheet" href="stars.css">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito+Sans:wght@300;400&family=Oxygen:wght@300&family=Quicksand&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Red+Rose&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito+Sans:wght@300;400&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Prompt&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Concert+One&family=Fjalla+One&family=Fredoka+One&family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
@@ -20,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Titillium+Web:wght@300;400&display=swap" rel="stylesheet">
     <link href="button.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Candal&family=Fira+Sans+Condensed&family=Oswald:wght@700&family=Staatliches&family=Viga&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Candal&family=Fira+Sans+Condensed&family=Oswald:wght@700&family=Staatliches&family=Suez+One&family=Viga&display=swap" rel="stylesheet">
@@ -56,12 +62,12 @@
     </header>
     <main>
 
-        <!-- <div id="background-boi"></div> -->            
+        <div id="background-boi"></div>            
         <div class="container">
             <div class="flexboi">
                 <div class="right-welcome">
                     <div class="landing-title">
-                    <h1>Welcome to<br>MCHS Programming Club!</h1>
+                    <h1>Welcome to<br>MCHS Programming Club</h1>
                     <!-- <button class="btn about">About Us</button>
                     <a href="" class="btn btn3">Hover Me</a>   
                     <a href="#" class="btn btn-sm animated-button victoria-two">Login</a> -->
@@ -69,6 +75,8 @@
                     <a href='plans.html'><button class="material-bubble">Our Plans</button></a>
                     <a href='notes.html'><button class="material-bubble">Notes</button></a>
                     <a href='join.html'><button class="material-bubble">Join Us</button></a>
+                    <ion-icon name="desktop-outline"></ion-icon>
+
                     <!-- <button class="material-bubble">Our Plans</button>
                     <button class="material-bubble">Notes</button>
                     <button class="material-bubble">Join us</button> -->
@@ -77,7 +85,7 @@
                 </div>    
            
             <div class="boxy-boi">
-                    <div class="night">
+                    <!-- <div class="night">
                             <div class="shooting_star"></div>
                             <div class="shooting_star"></div>
                             <div class="shooting_star"></div>
@@ -86,7 +94,7 @@
                             <div class="shooting_star"></div>
                             <div class="shooting_star"></div>
                 
-                    </div>
+                    </div> -->
             </div>
         </div>
                 
@@ -115,7 +123,7 @@
             
     
     </main>
-
+<!-- 
     <script src="three.r95.min.js"></script>
 <script src="vanta.fog.min.js"></script>
 <script>
@@ -132,8 +140,24 @@ VANTA.FOG({
   blurFactor: 0.90,
   speed: 0.50,
   zoom: 0.40
+}) -->
+</script>
+<script src="three.r95.min.js"></script>
+<script src="vanta.dots.min.js"></script>
+<script>
+VANTA.DOTS({
+  el: "#background-boi",
+  mouseControls: true,
+  touchControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xc83cff,
+  color2: 0xc83cff
 })
 </script>
+
       
 
 </body>

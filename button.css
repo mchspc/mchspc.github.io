@@ -63,7 +63,7 @@ button::after, button::before {
   background-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #d942ff;
+  color: #c83cff;
 }
 
 .shrink-border::before {
@@ -90,7 +90,7 @@ button::after, button::before {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  border: 3px solid #d942ff;
+  border: 3px solid #c83cff;
   opacity: 0;
   z-index: -1;
   -webkit-transform: scaleX(1.1) scaleY(1.3);
@@ -144,7 +144,7 @@ button::after, button::before {
   left: 0;
   width: 180px;
   height: 180px;
-  background-color: #e375ff;
+  background-color: #d66fff;
   border-color: transparent;
   border-radius: 50%;
   -webkit-transform: translate(-10px, -70px) scale(0.1);

@@ -160,4 +160,65 @@ button:active {
   -webkit-transform: scale(1) translate(-10px, -70px);
           transform: scale(1) translate(-10px, -70px);
 }
+
+.material-bubbles {
+  background-color: #e9e9e9;
+  color: #d0d0d0;
+  border: none;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  z-index: 1;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: #222222;
+}
+
+.material-bubbles:hover {
+  color: #e9e9e9;
+}
+
+.material-bubbles::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #d0d0d0;
+  -webkit-transition: opacity 0.3s, border 0.3s;
+  transition: opacity 0.3s, border 0.3s;
+}
+
+.material-bubbles:hover::before {
+  opacity: 0;
+}
+
+.material-bubbles::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+  background-color: #d66fff;
+  border-color: transparent;
+  border-radius: 50%;
+  -webkit-transform: translate(-10px, -70px) scale(0.1);
+          transform: translate(-10px, -70px) scale(0.1);
+  opacity: 0;
+  z-index: -1;
+  -webkit-transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+  transition: transform 0.3s, opacity 0.3s, background-color 0.3s, -webkit-transform 0.3s;
+}
+
+.material-bubbles:hover::after {
+  opacity: 1;
+  -webkit-transform-origin: 100px 100px;
+          transform-origin: 100px 100px;
+  -webkit-transform: scale(1) translate(-10px, -70px);
+          transform: scale(1) translate(-10px, -70px);
+}
 /*# sourceMappingURL=button.css.map */

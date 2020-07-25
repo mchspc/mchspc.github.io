@@ -1,5 +1,10 @@
 $offwhite: #ffffff;
 
+// .logotext{
+//     text-align: left;
+//     z-index: 55;
+// }
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0; 
@@ -14,9 +19,26 @@ nav {
     padding: 5px;
     font-size: 17px;
     color: white;
-    text-align: center;
+    text-align: right;
     animation: fadein 1s both;
     transition: .2s ease;
+    // margin-right: 20 px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    
+}
+#yeet{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+    color: #c83cff
+    // margin-left: 20px;
+    // margin: 2px 
+    // align-self: left !important;
 }
 
 @keyframes fadein{

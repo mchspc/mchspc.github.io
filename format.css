@@ -11,11 +11,28 @@ nav {
   padding: 5px;
   font-size: 17px;
   color: white;
-  text-align: center;
+  text-align: right;
   -webkit-animation: fadein 1s both;
           animation: fadein 1s both;
   -webkit-transition: .2s ease;
   transition: .2s ease;
+  padding-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#yeet {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  color: #c83cff;
 }
 
 @-webkit-keyframes fadein {

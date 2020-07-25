@@ -4,6 +4,8 @@ $offwhite: #ffffff;
 //     text-align: left;
 //     z-index: 55;
 // }
+// background-color: #222222;
+
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -11,19 +13,25 @@ body {
     color: white;
 }
 
+.landing-title {
+    z-index: 10;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
 nav {
     // background: #44355B;
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px 15px;
     font-size: 17px;
     color: white;
     text-align: right;
     animation: fadein 1s both;
     transition: .2s ease;
     // margin-right: 20 px;
-    padding-right: 30px;
+    // padding-right: 30px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -31,11 +39,12 @@ nav {
     
 }
 #yeet{
-    font-family: 'OpenSans', sans-serif;
-    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
     text-align: left;
-    margin-left: 20px;
-    color: #c83cff
+    // margin-left: 20px;
+    // color: #c83cff
+    color: white;
     // margin-left: 20px;
     // margin: 2px 
     // align-self: left !important;
@@ -80,7 +89,7 @@ main {
     // align-content: center;
     // text-align: center;
     // margin-left: 100px;
-    font-family: 'Oxygen', sans-serif;
+    // font-family: 'Oxygen', sans-serif;
 
 }
 
@@ -88,11 +97,7 @@ main {
     color: #e0aaff !important;
 }
 
-.landing-title {
-    z-index: 10;
-    font-family: 'Oxygen', sans-serif;
 
-}
     
 a.animated-button.victoria-two {
 	border: 2px solid #D24D57;

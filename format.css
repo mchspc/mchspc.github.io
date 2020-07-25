@@ -4,11 +4,16 @@ body {
   color: white;
 }
 
+.landing-title {
+  z-index: 10;
+  font-family: 'Oxygen', sans-serif;
+}
+
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 5px;
+  padding: 10px 15px;
   font-size: 17px;
   color: white;
   text-align: right;
@@ -16,7 +21,6 @@ nav {
           animation: fadein 1s both;
   -webkit-transition: .2s ease;
   transition: .2s ease;
-  padding-right: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,11 +32,10 @@ nav {
 }
 
 #yeet {
-  font-family: 'OpenSans', sans-serif;
-  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 27px;
   text-align: left;
-  margin-left: 20px;
-  color: #c83cff;
+  color: white;
 }
 
 @-webkit-keyframes fadein {
@@ -78,16 +81,10 @@ h1 {
 
 .right-welcome {
   color: #5d09e4;
-  font-family: 'Oxygen', sans-serif;
 }
 
 .active {
   color: #e0aaff !important;
-}
-
-.landing-title {
-  z-index: 10;
-  font-family: 'Oxygen', sans-serif;
 }
 
 a.animated-button.victoria-two {

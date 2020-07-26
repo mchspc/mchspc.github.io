@@ -1,23 +1,52 @@
-@import 'colors.scss';
+ @import 'colors.scss';
 
 .center-limit {
     margin: 0 auto;
-    max-width: 60em;
+    // max-width: 60em;
+    max-width: 90em;
 }
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }
 .flexner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    // & :hover{
+    //     font-family: "Ubuntu", sans-serif;
+    // }
 }
 .tiles{
-    border: $purpleMain solid 5px;
-    max-width: 28em;
+    border: rgba(209, 209, 209, 0.171) solid 2px;
+    max-width: 32em;
     padding: 10px;
-    justify-content: space-between;
+    min-height: 20em;
+    background-color: #222222;
+    // justify-content: space-between;
     text-decoration: none;
     color: white;
     // background-color: $purpleMain;
+    z-index: 45;
 
+&:hover{
+    border: $purpleMain solid 2px;
+ 
 }
+.left-image{
+    text-align: left !important;
+    justify-content: flex-start;
+    display: flex;
+}
+}
+ion-icon{
+    // padding:  5em;
+    color: $purpleMain;
+    font-size: 50px !important;
+    justify-content: left;
+    align-content: left;
+    align-self: left;
+    text-align: left;
+}
+
 
 .center-text {
     text-align: center;
@@ -37,3 +66,4 @@
 .vertical-center {
     margin: auto;
 }
+

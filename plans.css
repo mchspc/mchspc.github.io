@@ -1,26 +1,59 @@
 .center-limit {
   margin: 0 auto;
-  max-width: 60em;
+  max-width: 90em;
+}
+
+body {
+  overflow: hidden;
+  /* Hide scrollbars */
 }
 
 .flexner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .tiles {
-  border: #c83cff solid 5px;
-  max-width: 28em;
+  border: rgba(209, 209, 209, 0.171) solid 2px;
+  max-width: 32em;
   padding: 10px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  min-height: 20em;
+  background-color: #222222;
   text-decoration: none;
   color: white;
+  z-index: 45;
+}
+
+.tiles:hover {
+  border: #c83cff solid 2px;
+}
+
+.tiles .left-image {
+  text-align: left !important;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ion-icon {
+  color: #c83cff;
+  font-size: 50px !important;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -ms-flex-line-pack: left;
+      align-content: left;
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  text-align: left;
 }
 
 .center-text {

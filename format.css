@@ -17,8 +17,6 @@ nav {
   font-size: 17px;
   color: white;
   text-align: right;
-  -webkit-animation: fadein 1s both;
-          animation: fadein 1s both;
   -webkit-transition: .2s ease;
   transition: .2s ease;
   display: -webkit-box;
@@ -29,6 +27,12 @@ nav {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
+  z-index: 100;
+}
+
+.fade-in {
+  -webkit-animation: fadein 1s both;
+          animation: fadein 1s both;
 }
 
 #yeet {
@@ -36,6 +40,7 @@ nav {
   font-size: 27px;
   text-align: left;
   color: white;
+  cursor: pointer;
 }
 
 @-webkit-keyframes fadein {
@@ -146,7 +151,6 @@ nav li {
   margin: 9px 22px;
   text-transform: uppercase;
   font-family: 'Josefin Sans', sans-serif;
-  z-index: 50;
 }
 
 nav a {

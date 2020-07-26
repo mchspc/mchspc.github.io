@@ -2,4 +2,43 @@
   margin: 0 auto;
   max-width: 60em;
 }
+
+.flexner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tiles {
+  border: #c83cff solid 5px;
+  max-width: 28em;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.nav-margin {
+  margin-top: 100px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.vertical-center {
+  margin: auto;
+}
 /*# sourceMappingURL=plans.css.map */

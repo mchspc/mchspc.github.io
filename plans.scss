@@ -1,4 +1,39 @@
+@import 'colors.scss';
+
 .center-limit {
     margin: 0 auto;
     max-width: 60em;
+}
+.flexner{
+    display: flex;
+    justify-content: space-between;
+}
+.tiles{
+    border: $purpleMain solid 5px;
+    max-width: 28em;
+    padding: 10px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    // background-color: $purpleMain;
+
+}
+
+.center-text {
+    text-align: center;
+   
+}
+
+.nav-margin {
+    margin-top: 100px;
+
+}
+
+.flex {
+    display: flex;
+    height: 100vh;
+}
+
+.vertical-center {
+    margin: auto;
 }

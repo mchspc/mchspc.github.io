@@ -10,7 +10,8 @@ body {
   }
 .flexner{
     display: flex;
-    justify-content: space-evenly;
+    
+    justify-content: center;
     // & :hover{
     //     font-family: "Ubuntu", sans-serif;
     // }
@@ -19,13 +20,19 @@ body {
     border: rgba(209, 209, 209, 0.171) solid 2px;
     max-width: 32em;
     padding: 10px;
-    min-height: 20em;
+    min-height: 17em;
     background-color: #222222;
     // justify-content: space-between;
     text-decoration: none;
     color: white;
     // background-color: $purpleMain;
     z-index: 45;
+    min-width: 20em;
+    margin: 0px 50px;
+    // font-size: 25px;
+    h2{
+        font-size: 35px;
+    }
 
 &:hover{
     border: $purpleMain solid 2px;
@@ -40,7 +47,7 @@ body {
 ion-icon{
     // padding:  5em;
     color: $purpleMain;
-    font-size: 50px !important;
+    font-size: 170px !important;
     justify-content: left;
     align-content: left;
     align-self: left;
@@ -65,5 +72,10 @@ ion-icon{
 
 .vertical-center {
     margin: auto;
+}
+i{
+    color: $purpleMain;
+    font-size: 170px !important;
+    
 }
 

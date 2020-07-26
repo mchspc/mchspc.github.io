@@ -12,20 +12,26 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tiles {
   border: rgba(209, 209, 209, 0.171) solid 2px;
   max-width: 32em;
   padding: 10px;
-  min-height: 20em;
+  min-height: 17em;
   background-color: #222222;
   text-decoration: none;
   color: white;
   z-index: 45;
+  min-width: 20em;
+  margin: 0px 50px;
+}
+
+.tiles h2 {
+  font-size: 35px;
 }
 
 .tiles:hover {
@@ -44,7 +50,7 @@ body {
 
 ion-icon {
   color: #c83cff;
-  font-size: 50px !important;
+  font-size: 170px !important;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
@@ -73,5 +79,10 @@ ion-icon {
 
 .vertical-center {
   margin: auto;
+}
+
+i {
+  color: #c83cff;
+  font-size: 170px !important;
 }
 /*# sourceMappingURL=plans.css.map */

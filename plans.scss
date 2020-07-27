@@ -17,7 +17,7 @@ body {
     // }
 }
 .tiles{
-    border: rgba(209, 209, 209, 0.171) solid 2px;
+    border: rgba(209, 209, 209, 0.171) solid 5px;
     max-width: 32em;
     padding: 10px;
     min-height: 17em;
@@ -30,6 +30,8 @@ body {
     min-width: 20em;
     margin: 0px 50px;
     // font-size: 25px;
+    transition: .2s ease all;
+
     h2{
         font-size: 35px;
     }

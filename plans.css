@@ -18,16 +18,30 @@ body {
 }
 
 .tiles {
-  border: rgba(209, 209, 209, 0.171) solid 2px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border: rgba(209, 209, 209, 0.171) solid 5px;
   max-width: 32em;
   padding: 10px;
   min-height: 17em;
+  max-height: 20em;
   background-color: #222222;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-decoration: none;
   color: white;
   z-index: 45;
   min-width: 20em;
   margin: 0px 50px;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+.tiles .slideyboy {
+  -webkit-transform: translateY(-130%);
+          transform: translateY(-130%);
 }
 
 .tiles h2 {
@@ -35,10 +49,34 @@ body {
 }
 
 .tiles:hover {
-  border: #c83cff solid 2px;
+  border: #c83cff solid 5px;
 }
 
-.tiles .left-image {
+.tiles:hovers {
+  color: transparent;
+}
+
+.tiles:hovers i {
+  color: transparent;
+}
+
+.tiles:hovers .slideyboy {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  color: red !important;
+}
+
+.slideyboy {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  color: transparent;
+}
+
+.slides-up {
+  color: red;
+}
+
+.left-image {
   text-align: left !important;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
@@ -84,5 +122,18 @@ ion-icon {
 i {
   color: #c83cff;
   font-size: 170px !important;
+}
+
+.text-size-notes {
+  font-size: 15px;
+}
+
+hr {
+  height: 2px;
+  border: transparent;
+}
+
+.slideyboy li {
+  font-size: 18px;
 }
 /*# sourceMappingURL=plans.css.map */

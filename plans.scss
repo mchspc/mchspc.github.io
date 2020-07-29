@@ -17,12 +17,16 @@ body {
     // }
 }
 .tiles{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     border: rgba(209, 209, 209, 0.171) solid 5px;
     max-width: 32em;
     padding: 10px;
+    // display: flex;
     min-height: 17em;
+    max-height: 20em;
     background-color: #222222;
     // justify-content: space-between;
+    flex-direction: column;
     text-decoration: none;
     color: white;
     // background-color: $purpleMain;
@@ -31,21 +35,58 @@ body {
     margin: 0px 50px;
     // font-size: 25px;
     transition: .2s ease all;
+    .slideyboy{
+        // position: absolute;
+        transform: translateY(-130%);
+    }
+    //     // text-align: center;
+    //     // display: inline-block;
+    //     margin: 0 auto;
+    //     // justify-content: center;
+    //     // justify-self: center;
+    // // color: #5d09e4;
+    //     // transform: translate(-50%, -50%);
+    //     // right: 350px;
+    
+    //     color: transparent;
+    // }
 
     h2{
         font-size: 35px;
     }
 
 &:hover{
-    border: $purpleMain solid 2px;
+    border: $purpleMain solid 5px;
+}
+&:hovers{
+    color: transparent;
+    i{
+        color: transparent;
+    }
+    .slideyboy{
+    transform: translateY(-00%);
+    color: red !important;
+    }
  
+}
+}
+.slideyboy{
+    transform: translateY(-00%);
+    color: transparent;
+
+    // position: absolute;
+
+}
+
+.slides-up{
+    color: red;
 }
 .left-image{
     text-align: left !important;
     justify-content: flex-start;
     display: flex;
 }
-}
+
 ion-icon{
     // padding:  5em;
     color: $purpleMain;
@@ -80,4 +121,15 @@ i{
     font-size: 170px !important;
     
 }
-
+.text-size-notes{
+    font-size: 15px;
+}
+hr{
+    height: 2px;
+    border: transparent;
+}
+.slideyboy{
+    li{
+        font-size: 18px;
+    }
+}

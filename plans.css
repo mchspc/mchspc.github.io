@@ -58,20 +58,6 @@ body {
   border: #c83cff solid 5px;
 }
 
-.tiles:hovers {
-  color: transparent;
-}
-
-.tiles:hovers i {
-  color: transparent;
-}
-
-.tiles:hovers .slideyboy {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-  color: red !important;
-}
-
 .slideyboy {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
@@ -104,6 +90,7 @@ body {
       -ms-grid-row-align: left;
       align-self: left;
   text-align: left;
+  margin-bottom: 40px;
 }
 
 .center-text {
@@ -128,6 +115,7 @@ body {
 i {
   color: #c83cff;
   font-size: 170px !important;
+  margin-bottom: 40px;
 }
 
 .text-size-notes {
@@ -163,10 +151,14 @@ hr {
   text-decoration: underline;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
-  margin: 40px 0px;
 }
 
 #close {
+  font-size: 40px !important;
+  margin-top: 3px;
+}
+
+#closes {
   font-size: 40px !important;
   margin-top: 3px;
 }
@@ -179,7 +171,18 @@ hr {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-left: 10px;
-  margin-top: 45px;
+  margin-top: 5px;
+}
+
+.headers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .slideyboy ul {

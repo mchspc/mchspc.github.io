@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="format.css">
     <link href="button.css" rel="stylesheet">
     <link href = "plans.css" rel = "stylesheet">
@@ -20,30 +21,52 @@
     <title>MCHS Programming Club</title>
 </head>
 <body style="background-color: #222222;">
-    <div id="background-boi"></div>            
 
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <em>
+                <a href='index.html' class = "navbar-brand">{PC}</a>
+                </em>
+                <button class="navbar-toggler" style = "color: white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class = "navbar-nav ml-auto mt-2 mt-lg-0 form-inline">
+                    <li class= "nav-item"><a href="index.html"><strong>home</strong></a></li>
+                    <li class= "nav-item"><a href="about.html"><strong>About</strong></a></li>
+                    <li class= "nav-item"><a href="https://ahujaanish11.gitbook.io/mchspc/"><strong>projects</strong></a></li>
+                    <li class= "nav-item"><a href="plans.html"  class="active"><strong>Notes</strong></a></li>
+                    <li class= "nav-item"><a href="contact.html"><strong>contact</strong></a></li>
+                    <a class= "nav-item" href='https://docs.google.com/forms/d/e/1FAIpQLScnthpOG3ACG7KVrNnmbpPLJlNZRK2i4a7BA7m96eKnTNwPRQ/viewform'><button class="material-bubbles" id = "join">Join</button></a>
+
+                </ul>
+ 
+            </div>
+          </nav>
+        <!-- <nav class = "navbar navbar-expand-lg">
             <div id = "yeet">
                 <em>
-                <a href='index.html'>{PC}</a>
-                   <!-- <span style = "color: white">{PC}</span><span style = "color: #c83cff"></span><span style = "color: white"></span> -->
-                    <!-- PC} -->
+                <a href='index.html' class = "navbar-brand">{PC}</a>
                 </em>
             </div>  
-
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <ul>
                     <li><a href="index.html"><strong>home</strong></a></li>
                     <li><a href="about.html"><strong>About</strong></a></li>
                     <li><a href="https://ahujaanish11.gitbook.io/mchspc/"><strong>projects</strong></a></li>
                     <li><a href="plans.html"  class="active"><strong>Notes</strong></a></li>
                     <li><a href="contact.html"><strong>contact</strong></a></li>
-                    <!-- <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScnthpOG3ACG7KVrNnmbpPLJlNZRK2i4a7BA7m96eKnTNwPRQ/viewform"><strong>join</strong></a></li> -->
                     <a href='https://docs.google.com/forms/d/e/1FAIpQLScnthpOG3ACG7KVrNnmbpPLJlNZRK2i4a7BA7m96eKnTNwPRQ/viewform'><button class="material-bubbles">Join</button></a>
 
                 </ul>
-
-        </nav>
+ 
+            </div>
+                
+        </nav>  -->
     </header> 
     <!-- <main class="flex"> -->
 
@@ -54,10 +77,23 @@
         <div class = "flexner">
             <div onclick="transparentJava()" class="tiles" id = "till">
                 <i class='fab fa-java' id = "pic"></i>
-                <h2>Java</h2>
+                <h2> Java </h2>
                 <div class = "slideyboy" id = "showw">
-                    <h2>JAVA</h2>
-                    <p>yeet</p>
+                    <h2 id = "JavaTitle">Java</h2>
+                    <!-- <hr id = "barJ"> -->
+
+                    <ul id = "listJava">
+                        <li>Libgdx Game Libraries</li>
+                        <li>Android Studios Apps</li>
+                        <li style = "color: transparent"> </li>
+                        <li style = "color: transparent"> </li>
+                        <li style = "color: transparent"> </li>
+                    </ul>
+                    <!-- <br> 
+                    <h3> </h3> 
+                    <br> -->
+                    <button class="material-bubble" id = "jabub">Notes</button>
+
                 </div> 
 
                 <!-- <div id = "slides-up">
@@ -70,9 +106,15 @@
                 <div id = "left-image">
                     <ion-icon name="logo-python" id = 'picture'></ion-icon>
                 </div>
-              <h2>Python</h2>
+                <h2 id = "py">Python</h2>
+
               <div class = "slideyboy" id = "show">
-                <h2>Python</h2>
+                  <div class = "header"> 
+                      <h2 style = "visibility: hidden"> al</h2>
+                      <h2 id = "PythonTitle">Python</h2>
+                    <ion-icon name="close-outline" id = "close"></ion-icon></div>
+                
+                <!-- <hr id = "bar"> -->
                 <ul id = "listPy">
                 <li >Newly Introduced!</li>
                  <li>Data Analysis</li>
@@ -80,7 +122,7 @@
                 <li>Discord Bots</li>
                 <li>Arduino and Automation</li>
                 </ul>
-                <hr id = "bar">
+                <button class="material-bubble" id = "pybub">NOTES</button>
 
               </div>
               <!-- <figure class="python-logo"> -->
@@ -101,12 +143,16 @@
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <script>
 function transparentPython(){
-    document.getElementById('til').style.color='transparent';
+    document.getElementById('til').style.color= "transparent";
+    document.getElementById('py').style.visibility= "hidden";
     document.getElementById('picture').style.color='transparent';
-    document.getElementById('show').style.color = '#c83cff';
-    document.getElementById('bar').style.background ='#c83cff';
-    document.getElementById('bar').style.border ='#c83cff';
+    document.getElementById('show').style.color = 'white';
+    // document.getElementById('bar').style.background ='#c83cff';
+    // document.getElementById('bar').style.border ='#c83cff';
     document.getElementById('listPy').style.color ='white';
+    document.getElementById('pybub').style.visibility ='visible';
+    document.getElementById('PythonTitle').style.textDecorationColor= '#c83cff';
+
 
 
 
@@ -114,7 +160,16 @@ function transparentPython(){
 function transparentJava(){
     document.getElementById('till').style.color='transparent';
     document.getElementById('pic').style.color='transparent';
-    document.getElementById('showw').style.color = '#c83cff';
+    document.getElementById('showw').style.color = 'white';
+    document.getElementById('listJava').style.color ='white';
+    // document.getElementById('barJ').style.background ='#c83cff';
+    // document.getElementById('barJ').style.border ='#c83cff';
+    document.getElementById('jabub').style.visibility ='visible';
+    document.getElementById('JavaTitle').style.textDecorationColor= '#c83cff';
+
+
+
+
 
 }
 
@@ -139,6 +194,9 @@ VANTA.DOTS({
   color2: 0x222222
 })
 </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
 </body>

@@ -4,7 +4,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow: auto;
+  overflow-x: hidden;
   /* Hide scrollbars */
 }
 
@@ -12,6 +13,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -34,18 +39,19 @@ body {
   color: white;
   z-index: 45;
   min-width: 20em;
-  margin: 0px 50px;
+  margin: 20px 50px;
   -webkit-transition: .2s ease all;
   transition: .2s ease all;
 }
 
 .tiles .slideyboy {
-  -webkit-transform: translateY(-130%);
-          transform: translateY(-130%);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .tiles h2 {
   font-size: 35px;
+  margin: 0px 0px;
 }
 
 .tiles:hover {
@@ -86,7 +92,7 @@ body {
   display: flex;
 }
 
-ion-icon {
+#picture {
   color: #c83cff;
   font-size: 170px !important;
   -webkit-box-pack: left;
@@ -134,6 +140,96 @@ hr {
 }
 
 .slideyboy li {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+#jabub {
+  margin: 5px 0px;
+  visibility: hidden;
+}
+
+#pybub {
+  margin: 5px 0px;
+  visibility: hidden;
+}
+
+#PythonTitle {
+  text-decoration: underline;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+}
+
+#JavaTitle {
+  text-decoration: underline;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
+  margin: 40px 0px;
+}
+
+#close {
+  font-size: 40px !important;
+  margin-top: 3px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-top: 45px;
+}
+
+.slideyboy ul {
+  text-align: left;
+  padding: 0px;
+  margin-left: 10px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: green;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row !important wrap;
+            flex-flow: row !important wrap;
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body .container {
+    margin-top: 125px;
+    min-width: 10em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body #join {
+    margin: 0 20px;
+  }
+  body nav {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  body .tiles {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  body .tiles .slideyboy {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body .flexner {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  header {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 /*# sourceMappingURL=plans.css.map */

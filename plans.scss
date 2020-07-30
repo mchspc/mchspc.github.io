@@ -22,6 +22,7 @@ body {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     border: rgba(209, 209, 209, 0.171) solid 5px;
     max-width: 32em;
+    cursor: pointer;
     padding: 10px;
     // display: flex;
     min-height: 17em;
@@ -36,6 +37,7 @@ body {
     min-width: 20em;
     margin: 20px 50px;
     // font-size: 25px;
+    text-align: center;
     transition: .2s ease all;
     .slideyboy{
         // position: absolute;
@@ -146,7 +148,12 @@ hr{
     text-decoration: underline;
     text-decoration-color: transparent;
 }
-
+#javalink{
+    visibility: hidden;
+}
+#pylink{
+    visibility: hidden;
+}
 #close{
     // transform: translateX(-1000%);
     // transform: translateY(555%);
@@ -168,13 +175,17 @@ hr{
     display: flex;
     justify-content: space-between;
     margin-left: 10px;
-    margin-top:5px;
+    margin-top:15px;
+    margin-bottom: 10px;
+
 }
 .headers{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 10px;
-    margin-top:10px;
+    margin-top:20px;
+    margin-bottom: 10px;
+
 }
 .slideyboy{
     ul{
@@ -206,7 +217,7 @@ hr{
         // align-content: space-between !important;
         // }
     .container{
-        margin-top: 125px;
+        margin-top: 100px;
         min-width: 10em;
         margin-left: 0px;
         margin-right: 0px;
@@ -220,8 +231,8 @@ hr{
         margin-right: 0;
     }
     .tiles{
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        // margin-left: 0px !important;
+        // margin-right: 0px !important;
         .slideyboy{
             margin-left: 0px;
             margin-right: 0px;
@@ -237,5 +248,13 @@ hr{
         margin-right: 0px;
     }
   }
-  
+
+.navbar-brand{
+    font-size: 27px !important;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#PythonTitle{
+    color: transparent;
+}
 

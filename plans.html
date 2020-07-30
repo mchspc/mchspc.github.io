@@ -97,23 +97,25 @@
                     <button class="material-bubble" id = "jabub">Notes</button> -->
 
                  <i class='fab fa-java' id = "pic"></i>
-                    <h2 id = "py">Java</h2>
+                    <h2 id = "ja">Java</h2>
     
-                  <div class = "slideyboy" id = "showw">
+                  <div class = "slideyboy" id = "showw" >
                       <div class = "headers"> 
-                          <h2 style = "visibility: hidden"> al</h2>
-                          <h2 id = "JavaTitle">Java</h2>
-                        <ion-icon name="close-outline" id = "closes"></ion-icon></div>
+                          <!-- <h2 style = "visibility: hidden"> al</h2> -->
+                          <h2 id = "JavaTitle" style= "color: transparent">Java</h2>
+                          <!-- <div onclick="transparentJava()"> <ion-icon name="close-outline" id = "closes" ></ion-icon></div> -->
+                        </div>
                     
                     <!-- <hr id = "bar"> -->
                     <ul id = "listJava">
-                    <li >Newly Introduced!</li>
-                     <li>Data Analysis</li>
-                    <li>Web Development</li>
-                    <li>Discord Bots</li>
-                    <li>Arduino and Automation</li>
+                    <li >Libgdx Game Libraries</li>
+                     <li>Android Studios Apps</li>
+                    <li style="visibility: hidden;">Web Development</li>
+                    <li style="visibility: hidden;">Discord Bots</li>
+                    <li style="visibility: hidden;">Arduino and Automation</li>
                     </ul>
-                    <button class="material-bubble" id = "jabub">NOTES</button>
+                    <a id = "javalink" href="https://app.gitbook.com/@programclub-mchs/s/java-lessons/"> <button class="material-bubble" id = "jabub">NOTES</button>
+                    </a>
     
 
                     </div> 
@@ -125,14 +127,15 @@
                 <!-- <p>Java will be taught from our own lesson plan and will be taught with the libgdx game libraries for game design.</p> -->
             </div>
             <div onclick="transparentPython()" class = "tiles" id ="til">
-                    <ion-icon name="logo-python" id = 'picture'></ion-icon>
-                <h2>Python</h2>
+                    <ion-icon name="logo-python" id = "picture"></ion-icon>
+                <h2 id = "py">Python</h2>
 
               <div class = "slideyboy" id = "show">
                   <div class = "header"> 
                       <h2 style = "visibility: hidden"> al</h2>
-                      <h2 id = "PythonTitle">Python</h2>
-                    <ion-icon name="close-outline" id = "close"></ion-icon></div>
+                      <h2 style= "color: transparent;" id = "PythonTitle">Python</h2>
+                    <ion-icon name="close-outline" id = "close"></ion-icon>
+                </div>
                 
                 <!-- <hr id = "bar"> -->
                 <ul id = "listPy">
@@ -142,7 +145,8 @@
                 <li>Discord Bots</li>
                 <li>Arduino and Automation</li>
                 </ul>
-                <button class="material-bubble" id = "pybub">NOTES</button>
+                <a id = "pylink" href="https://programclub-mchs.gitbook.io/mchs-pc/"><button class="material-bubble" id = "pybub">NOTES</button>
+                </a>
 
         </div>
               <!-- <figure class="python-logo"> -->
@@ -163,34 +167,92 @@
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <script>
 function transparentPython(){
-    document.getElementById('til').style.color= "transparent";
-    document.getElementById('py').style.visibility= "hidden";
-    document.getElementById('picture').style.color='transparent';
-    document.getElementById('show').style.color = 'white';
-    // document.getElementById('bar').style.background ='#c83cff';
-    // document.getElementById('bar').style.border ='#c83cff';
-    document.getElementById('listPy').style.color ='white';
-    document.getElementById('pybub').style.visibility ='visible';
-    document.getElementById('PythonTitle').style.textDecorationColor= '#c83cff';
+    // document.getElementById('til').style.color= "transparent";
+    // document.getElementById('py').style.visibility= "hidden";
+    // document.getElementById('picture').style.color='transparent';
+    // document.getElementById('show').style.color = 'white';
+    // document.getElementById('listPy').style.color ='white';
+    // document.getElementById('pybub').style.visibility ='visible';
+    // document.getElementById('PythonTitle').style.textDecorationColor= '#c83cff';
+    if (document.getElementById('PythonTitle').style.color == 'transparent'){
+        document.getElementById('PythonTitle').style.color= "white";
+        document.getElementById('PythonTitle').style.textDecorationColor= '#c83cff';
+        document.getElementById('picture').style.color = "transparent";
+        document.getElementById('py').style.color = "transparent";
+        document.getElementById('listPy').style.color = "white";
+        document.getElementById('pybub').style.visibility = "visible";
+        document.getElementById('pylink').style.visibility = "visible";
+        // document.getElementById('pybub').disabled = "false";
+
+    } else if (document.getElementById('PythonTitle').style.color == 'white'){
+        document.getElementById('PythonTitle').style.color = 'transparent';
+        document.getElementById('PythonTitle').style.textDecorationColor = 'transparent';
+        document.getElementById('picture').style.color = "#c83cff";
+        document.getElementById('py').style.color = "white";
+        document.getElementById('listPy').style.color = "transparent";
+        document.getElementById('pybub').style.visibility = "hidden";
+        document.getElementById('pylink').style.visibility = "hidden";
+
+        
+        // document.getElementById('pybub').disabled = "true";
 
 
 
 
+    }
 }
 function transparentJava(){
-    document.getElementById('till').style.color='transparent';
-    document.getElementById('pic').style.color='transparent';
+    // document.getElementById('jabub').disabled ='true';
+
+
+    if (document.getElementById('JavaTitle').style.color == 'transparent'){
+
+        document.getElementById('JavaTitle').style.color= 'white';
+        document.getElementById('JavaTitle').style.textDecorationColor= '#c83cff';
+        document.getElementById('pic').style.color = "transparent";
+        document.getElementById('ja').style.color = "transparent";
+        document.getElementById('listJava').style.color = "white";
+        document.getElementById('jabub').style.visibility = "visible";
+        document.getElementById('javalink').style.visibility = "visible";
+
+    //    document.getElementById('pic').style.color='transparent';
+    //     document.getElementById('ja').style.color='transparent';
+    //     // document.getElementById('showw').style.color = 'white';
+    //     document.getElementById('listJava').style.color ='white';
+    //     document.getElementById('jabub').style.visibility ='visible';
+    //     document.getElementById('JavaTitle').style.textDecorationColor= '#c83cff';
+    //     document.getElementById('JavaTitle').style.color='white';
+    //     document.getElementById('javalink').style.visibility='visible';
+    } else if (document.getElementById('JavaTitle').style.color == 'white'){
+
+        document.getElementById('JavaTitle').style.color = 'transparent';
+        document.getElementById('JavaTitle').style.textDecorationColor = 'transparent';
+        document.getElementById('pic').style.color = "#c83cff";
+        document.getElementById('ja').style.color = "white";
+        document.getElementById('listJava').style.color = "transparent";
+        document.getElementById('jabub').style.visibility = "hidden";
+        document.getElementById('javalink').style.visibility = "hidden";
+
+        // document.getElementById('JavaTitle').style.color = 'transparent';
+        // document.getElementById('pic').style.color='#c83cff';
+        // document.getElementById('ja').style.color='white';
+        // document.getElementById('javalink').style.visibility='hidden';
+        // // document.getElementById('showw').style.color = 'transparent';
+        // document.getElementById('listJava').style.color ='transparent';
+        // document.getElementById('jabub').style.visibility ='hidden';
+        // document.getElementById('JavaTitle').style.textDecorationColor= 'transparent'
+    }
+}
+
+    
+function returnJava(){
+    document.getElementById('till').style.color='white';
+    document.getElementById('pic').style.color='white';
     document.getElementById('showw').style.color = 'white';
     document.getElementById('listJava').style.color ='white';
-    // document.getElementById('barJ').style.background ='#c83cff';
-    // document.getElementById('barJ').style.border ='#c83cff';
+
     document.getElementById('jabub').style.visibility ='visible';
     document.getElementById('JavaTitle').style.textDecorationColor= '#c83cff';
-
-
-
-
-
 }
 
 

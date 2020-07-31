@@ -6,7 +6,7 @@
     max-width: 90em;
 }
 body {
-    overflow: auto;
+    // overflow: auto;
     overflow-x: hidden; /* Hide scrollbars */
   }
 .flexner{
@@ -246,6 +246,10 @@ hr{
     header{
         margin-left: 0px;
         margin-right: 0px;
+    }
+    body{
+        overflow: auto;
+
     }
   }
 

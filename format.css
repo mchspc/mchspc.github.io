@@ -174,4 +174,9 @@ nav a:hover {
 .btn3:hover::before {
   height: 380%;
 }
+
+.navbar-brand {
+  font-size: 27px !important;
+  font-family: 'Ubuntu', sans-serif;
+}
 /*# sourceMappingURL=format.css.map */

@@ -198,7 +198,8 @@ hr{
     }
 }
 
-@media screen and (min-width: 900px){
+
+@media screen and (min-width: 901px){
     body{
         background-color: green;
         flex-flow: row !important wrap;
@@ -206,7 +207,7 @@ hr{
 
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-device-width: 501px) and (max-width: 900px) {
     body {
         // .flexner{
         //     flex-flow: column !important;
@@ -216,6 +217,9 @@ hr{
         // margin-top: 100px;
         // align-content: space-between !important;
         // }
+        #notesMarginLOLXDUWU{
+            margin-top: 165px;
+        }
     .container{
         margin-top: 100px;
         min-width: 10em;
@@ -238,6 +242,7 @@ hr{
             margin-right: 0px;
         }
     }
+
     .flexner{
         margin-left: 0px;
         margin-right: 0px;
@@ -249,9 +254,15 @@ hr{
     }
     body{
         overflow: auto;
+        overflow-x: hidden;
 
     }
   }
+@media screen and (max-width: 500px){
+    #notesMarginLOLXDUWU{
+        margin-top: 270px;
+    }
+}
 
 .navbar-brand{
     font-size: 27px !important;

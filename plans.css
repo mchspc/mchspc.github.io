@@ -203,7 +203,7 @@ hr {
   list-style-type: none;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 901px) {
   body {
     background-color: green;
     -webkit-box-orient: horizontal;
@@ -215,7 +215,10 @@ hr {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-device-width: 501px) and (max-width: 900px) {
+  body #notesMarginLOLXDUWU {
+    margin-top: 165px;
+  }
   body .container {
     margin-top: 100px;
     min-width: 10em;
@@ -243,6 +246,13 @@ hr {
   }
   body {
     overflow: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #notesMarginLOLXDUWU {
+    margin-top: 270px;
   }
 }
 

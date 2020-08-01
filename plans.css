@@ -195,6 +195,8 @@ hr {
     border: transparent 0px solid !important;
     background-color: transparent !important;
     color: #1b1b1b;
+    outline: none !important;
+    outline-width: 0 !important;
   }
   #join:hover {
     background-color: transparent !important;
@@ -202,9 +204,23 @@ hr {
   #join:after {
     background-color: transparent !important;
   }
+  #join:active {
+    border-top-width: 0 !important;
+    border-bottom-width: 0px !important;
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
+  #join .shrink-border::active {
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
   #joinlink {
     background-color: white;
-    width: 200vw;
+    width: 95vw;
     text-align: center;
   }
   #joinlink:hover {

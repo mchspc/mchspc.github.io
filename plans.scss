@@ -208,17 +208,32 @@ hr{
         background-color: transparent!important;
         color: #1b1b1b;
         // disabled: true;
+        outline: none !important;
+        outline-width: 0 !important;
         &:hover{
             background-color: transparent !important;
         }
         &:after{
             background-color: transparent !important;
         }
+        &:active { 
+            border-top-width: 0!important; 
+            border-bottom-width: 0px !important;
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+        }
+
+        .shrink-border{
+            &::active{
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+            }
+        }
     }
     #joinlink{
         background-color: white;
         // color: black !important;
-        width: 200vw;
+        width: 95vw;
         text-align: center;
 
         &:hover{

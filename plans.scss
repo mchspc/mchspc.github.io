@@ -202,7 +202,7 @@ hr{
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 980px){
     #join{
         border: transparent 0px solid!important;
         background-color: transparent!important;
@@ -319,16 +319,16 @@ hr{
     }
 }
 
-@media screen and (max-height: 600px) and (max-width: 500px){
+@media screen and (max-height: 630px) and (max-width: 500px){
     .container{
-        height: 120vh;
+        height: 100vh;
 
     #notesMarginLOLXDUWU{
         margin-top: 210px !important;
     }
+    }
 }
-}
-    @media screen and (max-height: 730px) and (max-width: 500px){
+    @media screen and (min-height: 631px) and (max-height: 730px) and (max-width: 500px){
         .container{
             height: 120vh;
 
@@ -337,7 +337,7 @@ hr{
         }
     }
 }
-    @media screen and (max-height: 750px)and (max-width: 500px){
+    @media screen and (min-height: 731px )and (max-height: 750px)and (max-width: 500px){
         .container{
             height: 120vh !important;
 

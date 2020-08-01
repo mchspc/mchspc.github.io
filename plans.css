@@ -190,6 +190,20 @@ hr {
   list-style-type: none;
 }
 
+@media screen and (max-width: 1100px) {
+  #join {
+    border: transparent 0px solid !important;
+    background-color: transparent !important;
+    color: white !important;
+  }
+  #join:hover {
+    background-color: transparent !important;
+  }
+  #join:after {
+    background-color: transparent !important;
+  }
+}
+
 @media screen and (min-width: 901px) {
   body {
     background-color: green;
@@ -199,6 +213,9 @@ hr {
             flex-flow: row !important wrap;
     -ms-flex-direction: row !important;
         flex-direction: row !important;
+  }
+  body #notesMarginLOLXDUWU {
+    margin-top: 100px;
   }
 }
 
@@ -247,7 +264,7 @@ hr {
   }
 }
 
-@media screen and (max-height: 730px) {
+@media screen and (max-height: 600px) and (max-width: 500px) {
   .container {
     height: 120vh;
   }
@@ -256,13 +273,22 @@ hr {
   }
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 730px) and (max-width: 500px) {
+  .container {
+    height: 120vh;
+  }
+  .container #notesMarginLOLXDUWU {
+    margin-top: 75px !important;
+  }
+}
+
+@media screen and (max-height: 750px) and (max-width: 500px) {
   .container {
     height: 120vh !important;
   }
 }
 
-@media screen and (max-height: 900px) {
+@media screen and (max-height: 900px) and (max-width: 500px) {
   .container {
     height: 110vh;
   }

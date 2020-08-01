@@ -202,13 +202,28 @@ hr{
     }
 }
 
+@media screen and (max-width: 1100px){
+    #join{
+        border: transparent 0px solid!important;
+        background-color: transparent!important;
+        color: white!important;
+        &:hover{
+            background-color: transparent !important;
+        }
+        &:after{
+            background-color: transparent !important;
+        }
+    }
+}
 
 @media screen and (min-width: 901px){
     body{
         background-color: green;
         flex-flow: row !important wrap;
         flex-direction: row !important;
-
+        #notesMarginLOLXDUWU{
+            margin-top: 100px;
+        }
     }
 }
 @media screen and (min-device-width: 501px) and (max-width: 900px) {
@@ -278,16 +293,25 @@ hr{
     }
 }
 
-    @media screen and (max-height: 730px){
+@media screen and (max-height: 600px) and (max-width: 500px){
+    .container{
+        height: 120vh;
+
+    #notesMarginLOLXDUWU{
+        margin-top: 210px !important;
+    }
+}
+}
+    @media screen and (max-height: 730px) and (max-width: 500px){
         .container{
             height: 120vh;
 
         #notesMarginLOLXDUWU{
-            margin-top: 210px !important;
+            margin-top: 75px !important;
         }
     }
 }
-    @media screen and (max-height: 750px){
+    @media screen and (max-height: 750px)and (max-width: 500px){
         .container{
             height: 120vh !important;
 
@@ -296,7 +320,7 @@ hr{
         }
     }
 }
-    @media screen and (max-height: 900px){
+    @media screen and (max-height: 900px)and (max-width: 500px){
         .container{
             height: 110vh;
 

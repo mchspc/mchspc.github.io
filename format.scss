@@ -12,6 +12,7 @@ body {
     margin: 0; 
     color: white;
     overflow: hidden;
+    // position: sticky !important;
 
 }
 
@@ -20,13 +21,18 @@ body {
     font-family: 'Oxygen', sans-serif;
 
 }
+#navbarTogglerDemo02{
+    // position: relative !important;
+    
+}
 
 nav {
     // background: #44355B;
-    position: fixed;
+    // position: fixed;
     top: 0;
     width: 100%;
     padding: 10px 15px;
+    padding-top: 0px;
     font-size: 17px;
     color: white;
     text-align: right;
@@ -38,6 +44,8 @@ nav {
     align-content: center;
     z-index: 100;
     // background-color: #5A189A;
+    // min-height: 15em;
+    // z-index: 55;
 
 
     
@@ -164,6 +172,9 @@ nav ul{
     padding: 0;
     margin: 0;
     color: white;
+    // position: fixed;
+
+    // position: absolute;
 
 }
 nav li{
@@ -200,3 +211,4 @@ nav a:hover{
     font-size: 27px !important;
     font-family: 'Ubuntu', sans-serif;
 }
+

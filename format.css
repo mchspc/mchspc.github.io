@@ -86,6 +86,44 @@ h1 {
   color: #ffffff;
 }
 
+@media screen and (max-width: 980px) {
+  #join {
+    border: transparent 0px solid !important;
+    background-color: transparent !important;
+    color: #1b1b1b;
+    outline: none !important;
+    outline-width: 0 !important;
+  }
+  #join:hover {
+    background-color: transparent !important;
+  }
+  #join:after {
+    background-color: transparent !important;
+  }
+  #join:active {
+    border-top-width: 0 !important;
+    border-bottom-width: 0px !important;
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
+  #join .shrink-border:active {
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
+  #joinLink {
+    background-color: white;
+    width: 95vw;
+    text-align: center;
+  }
+  #joinLink:hover {
+    background-color: #c83cff;
+  }
+}
+
 .right-welcome {
   color: #5d09e4;
 }

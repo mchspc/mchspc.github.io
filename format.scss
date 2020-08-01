@@ -94,6 +94,45 @@ main {
     // margin-top: 45px;
     
 }
+@media screen and (max-width: 980px){
+    #join{
+        border: transparent 0px solid!important;
+        background-color: transparent!important;
+        color: #1b1b1b;
+        // disabled: true;
+        outline: none !important;
+        outline-width: 0 !important;
+        &:hover{
+            background-color: transparent !important;
+        }
+        &:after{
+            background-color: transparent !important;
+        }
+        &:active { 
+            border-top-width: 0!important; 
+            border-bottom-width: 0px !important;
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+        }
+
+        .shrink-border{
+            &:active{
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+            }
+        }
+    }
+    #joinLink{
+        background-color: white;
+        // color: black !important;
+        width: 95vw;
+        text-align: center;
+
+        &:hover{
+            background-color: #c83cff;
+        }
+    }
+}
 .right-welcome{
     // position: absolute;
     // width: 100vw;

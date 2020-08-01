@@ -194,13 +194,21 @@ hr {
   #join {
     border: transparent 0px solid !important;
     background-color: transparent !important;
-    color: white !important;
+    color: #1b1b1b;
   }
   #join:hover {
     background-color: transparent !important;
   }
   #join:after {
     background-color: transparent !important;
+  }
+  #joinlink {
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+  }
+  #joinlink:hover {
+    background-color: #c83cff;
   }
 }
 
@@ -213,9 +221,6 @@ hr {
             flex-flow: row !important wrap;
     -ms-flex-direction: row !important;
         flex-direction: row !important;
-  }
-  body #notesMarginLOLXDUWU {
-    margin-top: 100px;
   }
 }
 

@@ -1,9 +1,9 @@
  @import 'colors.scss';
 
 .center-limit {
-    margin: 0 auto;
+    // margin: 0 auto;
     // max-width: 60em;
-    max-width: 90em;
+    // max-width: 90em;
 }
 body {
     // overflow: auto;
@@ -18,6 +18,7 @@ body {
     //     font-family: "Ubuntu", sans-serif;
     // }
 }
+
 .tiles{
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     border: rgba(209, 209, 209, 0.171) solid 5px;
@@ -93,15 +94,18 @@ body {
 
 }
 
+nav{
+    margin-bottom: 50px !important;
+}
 
 
 .center-text {
-    text-align: center;
+    // text-align: center;
    
 }
 
 .nav-margin {
-    margin-top: 100px;
+    // margin-top: 100px;
 
 }
 
@@ -111,7 +115,7 @@ body {
 }
 
 .vertical-center {
-    margin: auto;
+    // margin: auto;
 }
 i{
     color: $purpleMain;
@@ -220,7 +224,7 @@ hr{
         #notesMarginLOLXDUWU{
             margin-top: 165px;
         }
-    .container{
+    .containery{
         margin-top: 100px;
         min-width: 10em;
         margin-left: 0px;
@@ -251,6 +255,7 @@ hr{
     header{
         margin-left: 0px;
         margin-right: 0px;
+        // margin-bottom: 50px
     }
     body{
         overflow: auto;
@@ -260,15 +265,44 @@ hr{
   }
 @media screen and (max-width: 500px){
     #notesMarginLOLXDUWU{
-        margin-top: 45vh;
+        // margin-top: 280px;
     }
     body{
         overflow: auto;
+        position: relative;
 
     }
     .flex{
         height: 150vh;
 
+    }
+}
+
+    @media screen and (max-height: 730px){
+        .container{
+            height: 120vh;
+
+        #notesMarginLOLXDUWU{
+            margin-top: 210px !important;
+        }
+    }
+}
+    @media screen and (max-height: 750px){
+        .container{
+            height: 120vh !important;
+
+        #notesMarginLOLXDUWU{
+            // margin-top: 140px;
+        }
+    }
+}
+    @media screen and (max-height: 900px){
+        .container{
+            height: 110vh;
+
+        #notesMarginLOLXDUWU{
+            // margin-top: 140px;
+        }
     }
 }
 
@@ -280,4 +314,5 @@ hr{
 #PythonTitle{
     color: transparent;
 }
+
 

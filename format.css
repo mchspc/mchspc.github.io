@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  top: 0;
+  top: -1px;
   width: 100%;
   padding: 10px 15px;
   padding-top: 0px;
@@ -28,7 +28,8 @@ nav {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
-  z-index: 100;
+  z-index: 105;
+  background-color: #1b1b1b;
 }
 
 .fade-in {

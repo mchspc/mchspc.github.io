@@ -5,6 +5,8 @@ nav {
   padding-top: 0px;
   font-size: 17px;
   color: white;
+  padding-left: 0px;
+  padding-right: 0px;
   text-align: right;
   -webkit-transition: .2s ease;
   transition: .2s ease;
@@ -23,8 +25,45 @@ nav {
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 0;
   color: white;
+}
+
+@media screen and (max-width: 980px) {
+  #join {
+    border: transparent 0px solid !important;
+    background-color: transparent !important;
+    color: #1b1b1b;
+    outline: none !important;
+    outline-width: 0 !important;
+  }
+  #join:hover {
+    background-color: transparent !important;
+  }
+  #join:after {
+    background-color: transparent !important;
+  }
+  #join:active {
+    border-top-width: 0 !important;
+    border-bottom-width: 0px !important;
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
+  #join .shrink-border::active {
+    -webkit-transform: translateY(0px) !important;
+            transform: translateY(0px) !important;
+    -webkit-transform: scaleX(1) scaleY(1) !important;
+            transform: scaleX(1) scaleY(1) !important;
+  }
+  #joinlink {
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+  }
+  #joinlink:hover {
+    background-color: #c83cff;
+  }
 }
 
 nav li {
@@ -53,6 +92,10 @@ nav a:hover {
 .navbar-brand {
   font-size: 27px !important;
   font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar {
+  padding: 0px;
 }
 
 @-webkit-keyframes fadein {

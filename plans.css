@@ -16,6 +16,11 @@ body {
           justify-content: center;
 }
 
+.navbar {
+  padding: 0;
+  padding-bottom: 10px;
+}
+
 .tiles {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);

@@ -31,8 +31,8 @@ nav {
     // position: fixed;
     top: -1px;
     width: 100%;
-    padding: 10px 15px;
-    padding-top: 0px;
+    // padding: 10px 15px;
+    padding: 0px;
     font-size: 17px;
     color: white;
     text-align: right;
@@ -49,6 +49,10 @@ nav {
 
 
     
+}
+.navbar{
+    padding: 0;
+    padding-bottom: 10px;
 }
 
 .fade-in {
@@ -125,7 +129,7 @@ main {
     #joinLink{
         background-color: white;
         // color: black !important;
-        width: 95vw;
+        width: 100%;
         text-align: center;
 
         &:hover{

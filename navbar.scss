@@ -6,6 +6,8 @@ nav{
     padding-top: 0px;
     font-size: 17px;
     color: white;
+    padding-left:0px;
+    padding-right: 0px;
     text-align: right;
     transition: .2s ease;
     // margin-right: 20 px;
@@ -21,14 +23,56 @@ nav{
 nav ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    // margin: 0;
     color: white;
+    // width: 100%
+
     // margin-bottom: 30px;
     // position: static;
 
     // position: relative;
 
 }
+@media screen and (max-width: 980px){
+    #join{
+        border: transparent 0px solid!important;
+        background-color: transparent!important;
+        color: #1b1b1b;
+        // disabled: true;
+        outline: none !important;
+        outline-width: 0 !important;
+        &:hover{
+            background-color: transparent !important;
+        }
+        &:after{
+            background-color: transparent !important;
+        }
+        &:active { 
+            border-top-width: 0!important; 
+            border-bottom-width: 0px !important;
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+        }
+
+        .shrink-border{
+            &::active{
+            transform: translateY(0px) !important;
+            transform: scaleX(1) scaleY(1) !important;
+            }
+        }
+    }
+    #joinlink{
+        background-color: white;
+        // color: black !important;
+        width: 100vw;
+        text-align: center;
+
+        &:hover{
+            background-color: #c83cff
+        }
+    }
+}
+
 nav li{
     display: inline-block;
     color: white;
@@ -61,6 +105,9 @@ nav a:hover{
 
 }
 
+.navbar{
+    padding: 0px
+}
 @keyframes fadein{
     0% {
         opacity:0;

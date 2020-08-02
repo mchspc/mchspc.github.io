@@ -33,7 +33,8 @@ nav {
 
 .navbar {
   padding: 0;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .fade-in {
@@ -187,6 +188,7 @@ nav ul {
   padding: 0;
   margin: 0;
   color: white;
+  margin-right: 10px;
 }
 
 nav li {
@@ -222,5 +224,16 @@ nav a:hover {
 .navbar-brand {
   font-size: 27px !important;
   font-family: 'Ubuntu', sans-serif;
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 980px) {
+  nav ul {
+    margin-right: 0px !important;
+  }
+}
+
+.navbar-toggler {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=format.css.map */

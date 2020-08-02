@@ -26,6 +26,7 @@ nav ul {
   list-style: none;
   padding: 0;
   color: white;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 980px) {
@@ -96,6 +97,8 @@ nav a:hover {
 
 .navbar {
   padding: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 @-webkit-keyframes fadein {
@@ -137,5 +140,15 @@ nav a:hover {
 .fade-in {
   -webkit-animation: fadein 1s both;
           animation: fadein 1s both;
+}
+
+@media screen and (max-width: 980px) {
+  nav ul {
+    margin-right: 0px !important;
+  }
+}
+
+.navbar-toggler {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=navbar.css.map */

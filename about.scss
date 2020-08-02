@@ -56,9 +56,6 @@
         background-color: green;
         flex-flow: row !important wrap;
         flex-direction: row !important;
-        #notesMarginLOLXDUWU{
-            // margin-top: 100px;
-        }
     }
 }
 
@@ -66,7 +63,10 @@
     .imagee{
         max-height: 85%;
         max-width: 85%;
-        margin-bottom: 0px
+        margin-bottom: 0px;
+    }
+    #imageLeft{
+        height: 35em;
     }
 }
 

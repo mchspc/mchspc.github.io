@@ -1,0 +1,131 @@
+#about{
+    margin-top: 70px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    // text-align: left;
+    // margin-left: 20px;
+}
+.flexy{
+    display: flex;
+    // min-width: 90em;
+    flex-flow: row wrap !important;
+    justify-content: center;
+
+}
+.leftAbout{
+    text-align: center;
+    display: flex;
+    // border: 10px white solid;
+    min-height: 17em;
+    height: 37em;
+    min-width: 17em;
+    width: 37em;
+    // justify-content: space-evenly;
+    // align-content: space-around;
+    margin: 30px;
+    flex-direction: column;
+    // flex-flow: row wrap;
+
+
+
+}
+.pcimage{
+    // align-content: center;
+    // display: flex;
+    // justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.imagee{
+    // justify-content: center;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
+    max-height: 70%;
+    max-width: 70%;
+    margin-top: 100px;
+    border: 3px rgba(255, 255, 255, 0.842) solid;
+
+}
+
+@media screen and (min-width: 901px){
+    body{
+        background-color: green;
+        flex-flow: row !important wrap;
+        flex-direction: row !important;
+        #notesMarginLOLXDUWU{
+            // margin-top: 100px;
+        }
+    }
+}
+@media screen and (min-device-width: 501px) and (max-width: 900px) {
+    // body {
+    //     // .flexner{
+    //     //     flex-flow: column !important;
+    //     // flex-direction: column !important;
+    //     // margin-left: 0;
+    //     // margin: 20px 0px;
+    //     // margin-top: 100px;
+    //     // align-content: space-between !important;
+    //     // }
+    //     #notesMarginLOLXDUWU{
+    //         margin-top: 165px;
+    //     }
+    // .containery{
+    //     margin-top: 100px;
+    //     min-width: 10em;
+    //     margin-left: 0px;
+    //     margin-right: 0px;
+    // }
+    // #join{
+    //     // padding: 0px 15px;
+    //     margin: 0 20px
+    // }
+    // nav{
+    //     margin-left: 0;
+    //     margin-right: 0;
+    // }
+    // .flexner{
+    //     margin-left: 0px;
+    //     margin-right: 0px;
+    // }
+    // }
+    // header{
+    //     margin-left: 0px;
+    //     margin-right: 0px;
+    //     // margin-bottom: 50px
+    // }
+    // body{
+    //     overflow: auto;
+    //     overflow-x: hidden;
+
+    // }
+  }
+@media screen and (max-width: 500px){
+    // #notesMarginLOLXDUWU{
+    //     // margin-top: 280px;
+    // }
+    // body{
+    //     overflow: auto;
+    //     position: relative;
+
+    // }
+    // .flex{
+    //     height: 150vh;
+
+    // }
+}
+
+    @media screen and (min-height: 50px) and (max-height: 900px) and (max-width: 500px){
+
+        .leftAbout{
+            margin-top: 0px !important;
+        }
+        #about{
+            margin-top: 0px;
+        }
+
+}

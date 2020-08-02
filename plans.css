@@ -275,12 +275,12 @@ hr {
   }
 }
 
-@media screen and (max-width: 500) {
+@media screen and (max-width: 500px) {
   body {
     overflow: auto;
     position: relative;
   }
-  .flexner {
+  .flex {
     height: 150vh;
   }
 }

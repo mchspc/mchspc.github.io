@@ -56,8 +56,14 @@
 @media screen and (min-width: 901px){
     body{
         background-color: green;
-        flex-flow: row !important wrap;
+        flex-flow: row wrap !important;
         flex-direction: row !important;
+    }
+}
+#textAbout{
+    margin-top: 30px;
+    h3{
+        margin-top:20px;
     }
 }
 

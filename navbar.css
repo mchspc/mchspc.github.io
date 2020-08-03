@@ -93,6 +93,7 @@ nav a:hover {
 .navbar-brand {
   font-size: 27px !important;
   font-family: 'Ubuntu', sans-serif;
+  margin-left: 7px;
 }
 
 .navbar {

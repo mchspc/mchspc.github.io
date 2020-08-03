@@ -139,12 +139,14 @@ hr {
   text-decoration: underline;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
+  font-size: 48px;
 }
 
 #JavaTitle {
   text-decoration: underline;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
+  font-size: 48px;
 }
 
 #javalink {
@@ -169,11 +171,11 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin-left: 10px;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 
@@ -185,12 +187,12 @@ hr {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .slideyboy ul {
-  text-align: left;
+  text-align: center;
   padding: 0px;
   margin-left: 10px;
   list-style-type: none;
@@ -235,6 +237,10 @@ hr {
   #joinlink:hover {
     background-color: #c83cff;
   }
+}
+
+#notesMarginLOLXDUWU {
+  font-size: 60px;
 }
 
 @media screen and (min-width: 901px) {
@@ -294,21 +300,21 @@ hr {
   }
 }
 
-@media screen and (max-height: 630px) and (max-width: 500px) {
+@media screen and (max-height: 640px) and (max-width: 500px) {
   .container {
     height: 100vh;
   }
   .container #notesMarginLOLXDUWU {
-    margin-top: 210px !important;
+    margin-top: 250px !important;
   }
 }
 
-@media screen and (min-height: 631px) and (max-height: 730px) and (max-width: 500px) {
+@media screen and (min-height: 641px) and (max-height: 730px) and (max-width: 500px) {
   .container {
     height: 120vh;
   }
   .container #notesMarginLOLXDUWU {
-    margin-top: 75px !important;
+    margin-top: 115px !important;
   }
 }
 
@@ -321,6 +327,34 @@ hr {
 @media screen and (max-height: 900px) and (max-width: 500px) {
   .container {
     height: 110vh;
+  }
+}
+
+@media screen and (max-height: 700px) and (max-width: 290px) {
+  .container {
+    height: 110vh;
+  }
+  .container #notesMarginLOLXDUWU {
+    margin-top: 190px !important;
+  }
+  .container .navbar {
+    padding: 0px;
+  }
+  .container .tiles {
+    min-width: 16em;
+    width: 15em !important;
+  }
+  .container #JavaTitle {
+    font-size: 40px;
+  }
+  .container #PythonTitle {
+    font-size: 40px;
+  }
+  .container .header {
+    margin-top: 50px;
+  }
+  .container .headers {
+    margin-top: 50px;
   }
 }
 

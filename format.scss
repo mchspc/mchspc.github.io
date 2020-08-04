@@ -19,6 +19,8 @@ body {
 .landing-title {
     z-index: 10;
     font-family: 'Oxygen', sans-serif;
+    align-content: center !important;
+    align-self: center;
 
 }
 #navbarTogglerDemo02{
@@ -191,6 +193,7 @@ a.animated-button.victoria-two:after {
     margin: 0 auto;
     // justify-content: center;
     justify-content: space-around;
+    align-content: center;
     // margin-right: 250px;
     // flex-wrap: wrap;
 }

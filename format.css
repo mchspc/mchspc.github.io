@@ -8,6 +8,11 @@ body {
 .landing-title {
   z-index: 10;
   font-family: 'Oxygen', sans-serif;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 nav {
@@ -170,6 +175,8 @@ a.animated-button.victoria-two:after {
   margin: 0 auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .boxy-boi {

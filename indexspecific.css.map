@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,IACZ;CAAC;;AACD,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,KACZ;CAAC",
+    "sources": [
+        "attempt.scss"
+    ],
+    "names": [],
+    "file": "attempt.css"
+}

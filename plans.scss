@@ -152,13 +152,16 @@ hr{
 #PythonTitle{
     text-decoration: underline;
     text-decoration-color: transparent;
-    font-size: 48px;
+    font-size: 40px;
+    margin-top: 10px;
 
 }
 #JavaTitle{
     text-decoration: underline;
     text-decoration-color: transparent;
-    font-size: 48px;
+    font-size: 40px;
+    margin-top: 10px;
+
 }
 #javalink{
     visibility: hidden;
@@ -386,10 +389,10 @@ hr{
         width: 15em !important;
     }
     #JavaTitle{
-        font-size: 40px;
+        font-size: 32px;
     }
     #PythonTitle{
-        font-size: 40px;
+        font-size: 32px;
     }
     .header{
         margin-top: 50px;

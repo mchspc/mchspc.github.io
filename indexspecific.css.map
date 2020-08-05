@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,IACZ;CAAC;;AACD,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,KACZ;CAAC",
     "sources": [
-        "attempt.scss"
+        "indexspecific.scss"
     ],
     "names": [],
-    "file": "attempt.css"
+    "file": "indexspecific.css"
 }

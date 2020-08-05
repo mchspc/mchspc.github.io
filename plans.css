@@ -139,14 +139,16 @@ hr {
   text-decoration: underline;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
-  font-size: 48px;
+  font-size: 40px;
+  margin-top: 10px;
 }
 
 #JavaTitle {
   text-decoration: underline;
   -webkit-text-decoration-color: transparent;
           text-decoration-color: transparent;
-  font-size: 48px;
+  font-size: 40px;
+  margin-top: 10px;
 }
 
 #javalink {
@@ -345,10 +347,10 @@ hr {
     width: 15em !important;
   }
   .container #JavaTitle {
-    font-size: 40px;
+    font-size: 32px;
   }
   .container #PythonTitle {
-    font-size: 40px;
+    font-size: 32px;
   }
   .container .header {
     margin-top: 50px;

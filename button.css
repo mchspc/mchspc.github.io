@@ -41,7 +41,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   height: 88vh;
-  width: 100vw;
+  width: 100%;
   text-align: center;
 }
 

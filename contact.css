@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   color: white;
   -ms-grid-column-align: center;
@@ -78,7 +82,7 @@ h4 {
 }
 
 .fa {
-  padding: 12px;
+  padding: 8px;
   font-size: 50px;
   text-align: center;
   text-decoration: none;
@@ -87,12 +91,17 @@ h4 {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin: 30px;
+  margin: 15px;
   border-radius: 12.5%;
 }
 
 .namess {
   margin-bottom: 30px;
+}
+
+.buttonssocial {
+  margin-top: 0px !important;
+  margin-left: 5px;
 }
 
 /* Add a hover effect if you want */

@@ -1,0 +1,129 @@
+.container{
+    color: white;
+    justify-content: flex-start !important;
+    align-content: flex-start;
+    width: 20vw;
+}
+.boxes{
+
+border: rgba(209, 209, 209, 0.171) solid 5px;
+    // max-width: 2em;
+    cursor: pointer;
+    padding: 10px;
+    // display: flex;
+    // min-height: 20em;
+    // max-height: 20em;
+    background-color: #222222;
+    // justify-content: space-between;
+    // flex-direction: column;
+    text-decoration: none;
+    color: white;
+    // background-color: $purpleMain;
+    z-index: 45;
+    // min-width: 25em;
+    max-width: 30em;
+    margin: 20px 20px;
+    // font-size: 25px;
+    text-align: left;
+    transition: .2s ease all;
+}
+img{
+    fill: white;
+}
+.col-sm-6{
+    // border: rgba(209, 209, 209, 0.171) solid 5px;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: 0px;
+    vertical-align: center;
+    // margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: center;
+    .col-sm-2{
+        // text-align: left;
+    }
+
+}
+.col-sm-10{
+    max-width: 20em;
+    margin-left: 100px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.col-sm-2{
+    margin-right: 00px;
+}
+.row{
+    position: relative;
+}
+h2{
+    // margin-top: 30px !important;
+}
+.dropdown-toggle{
+    width: 80%;
+    transform: translate(12.5%, 0%);
+    z-index: 1 !important;
+    // align-self: center;
+}
+.dropdown-menu{
+    width: 100%;
+    position: sticky;
+    z-index: 1 !important;
+    
+}
+.dropdown{
+    margin-bottom: 30px;
+    z-index: 1 !important;}
+.dropdown-menu.show{
+    width: 100%;
+    position: absolute;
+    margin-bottom: 200px;
+    background-color: green;
+    z-index: 1 !important;
+    
+}
+#byTitle{
+    color: #c83cff
+}
+img{
+    margin-top: 17px;
+}
+.flexer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+h2{
+    margin-top: 10px;
+}
+h5{
+    margin-top: 20px;
+    padding: 5px 0px;
+}
+@media screen and (max-width: 1100px){
+    .col-sm-10{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .col-sm-6{
+        text-align: center;
+    }
+    .col-sm-10{
+        margin-left: 00px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .col-sm-6{
+        text-align: center;
+    }
+    .col-sm-10{
+        margin-left: 0px;
+    }
+
+}

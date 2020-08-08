@@ -1,3 +1,9 @@
+.container {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 body {
   overflow-x: hidden;
   /* Hide scrollbars */
@@ -258,9 +264,6 @@ hr {
 }
 
 @media screen and (min-device-width: 501px) and (max-width: 900px) {
-  body #notesMarginLOLXDUWU {
-    margin-top: 165px;
-  }
   body .containery {
     margin-top: 100px;
     min-width: 10em;
@@ -306,17 +309,11 @@ hr {
   .container {
     height: 100vh;
   }
-  .container #notesMarginLOLXDUWU {
-    margin-top: 250px !important;
-  }
 }
 
 @media screen and (min-height: 641px) and (max-height: 730px) and (max-width: 500px) {
   .container {
     height: 120vh;
-  }
-  .container #notesMarginLOLXDUWU {
-    margin-top: 115px !important;
   }
 }
 
@@ -335,9 +332,6 @@ hr {
 @media screen and (max-height: 700px) and (max-width: 290px) {
   .container {
     height: 110vh;
-  }
-  .container #notesMarginLOLXDUWU {
-    margin-top: 190px !important;
   }
   .container .navbar {
     padding: 0px;

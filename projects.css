@@ -101,6 +101,11 @@ img {
   color: white;
 }
 
+#instructions {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+}
+
 .project {
   height: 390px;
   border-radius: 0;

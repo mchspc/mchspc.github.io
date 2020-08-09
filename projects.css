@@ -81,11 +81,98 @@ img {
 }
 
 #byTitle {
-  color: #c83cff;
+  font-size: 20px;
+}
+
+#title {
+  margin: 25px 0;
 }
 
 img {
   margin-top: 17px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#projectsLink {
+  text-decoration: none;
+  color: white;
+}
+
+.project {
+  height: 360px;
+  border-radius: 0;
+  border: 4px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  max-width: 20em;
+  min-height: 20em;
+  border: white solid 3px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project #danky {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 200%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #kidz {
+  margin-left: -15px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #yoshi {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #diary {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #pikachu {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #bit {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #tic {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
 }
 
 .flexer {
@@ -99,15 +186,17 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  max-width: 80em;
 }
 
 h2 {
   margin-top: 10px;
 }
 
-h5 {
-  margin-top: 20px;
+#description {
+  margin-top: 10px;
   padding: 5px 0px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1100px) {

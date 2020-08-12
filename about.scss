@@ -3,6 +3,7 @@
     font-size: 50px;
     color: white;
     font-family: 'Raleway', sans-serif;
+
     // text-align: left;
     // margin-left: 20px;
 }
@@ -12,6 +13,9 @@
     flex-flow: row wrap !important;
     justify-content: center;
 
+}
+#aboutText{
+    font-size: 28px;
 }
 .leftAbout{
     text-align: center;

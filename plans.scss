@@ -104,7 +104,7 @@ body {
 }
 
 nav{
-    margin-bottom: 50px !important;
+    // margin-bottom: 50px !important;
 }
 
 
@@ -132,8 +132,8 @@ i{
     margin-bottom: 40px;
     
 }
-.text-size-notes{
-    font-size: 15px;
+#text-size-notes{
+    font-size: 28px !important;
 }
 hr{
     height: 2px;
@@ -259,8 +259,10 @@ hr{
         }
     }
 }
-#notesMarginLOLXDUWU{
-    font-size: 60px;
+#notesMargin{
+    font-size: 55px;
+    margin: 25px 0px !important;
+    font-family: "Raleway", sans-serif !important;
 }
 
 @media screen and (min-width: 901px){
@@ -268,7 +270,7 @@ hr{
         background-color: green;
         flex-flow: row !important wrap;
         flex-direction: row !important;
-        #notesMarginLOLXDUWU{
+        #notesMargin{
             // margin-top: 100px;
         }
     }
@@ -283,7 +285,7 @@ hr{
         // margin-top: 100px;
         // align-content: space-between !important;
         // }
-        #notesMarginLOLXDUWU{
+        #notesMargin{
             // margin-top: 165px;
         }
     .containery{
@@ -326,7 +328,7 @@ hr{
     }
   }
 @media screen and (max-width: 500px){
-    #notesMarginLOLXDUWU{
+    #notesMargin{
         // margin-top: 280px;
     }
     body{
@@ -344,7 +346,7 @@ hr{
     .container{
         height: 100vh;
 
-    #notesMarginLOLXDUWU{
+    #notesMargin{
         // margin-top: 250px !important;
     }
     }
@@ -353,7 +355,7 @@ hr{
         .container{
             height: 120vh;
 
-        #notesMarginLOLXDUWU{
+        #notesMargin{
             // margin-top: 115px !important;
         }
     }
@@ -362,7 +364,7 @@ hr{
         .container{
             height: 120vh !important;
 
-        #notesMarginLOLXDUWU{
+        #notesMargin{
             // margin-top: 140px;
         }
     }
@@ -371,7 +373,7 @@ hr{
         .container{
             height: 110vh;
 
-        #notesMarginLOLXDUWU{
+        #notesMargin{
             // margin-top: 140px;
         }
     }
@@ -382,7 +384,7 @@ hr{
     .container{
         height: 110vh;
 
-    #notesMarginLOLXDUWU{
+    #notesMargin{
         // margin-top: 190px !important;
     }
     .navbar{

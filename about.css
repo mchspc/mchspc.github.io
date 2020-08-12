@@ -18,6 +18,10 @@
           justify-content: center;
 }
 
+#aboutText {
+  font-size: 28px;
+}
+
 .leftAbout {
   text-align: center;
   display: -webkit-box;

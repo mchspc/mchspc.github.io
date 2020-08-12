@@ -101,10 +101,6 @@ body {
   margin-bottom: 40px;
 }
 
-nav {
-  margin-bottom: 50px !important;
-}
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,8 +114,8 @@ i {
   margin-bottom: 40px;
 }
 
-.text-size-notes {
-  font-size: 15px;
+#text-size-notes {
+  font-size: 28px !important;
 }
 
 hr {
@@ -247,8 +243,10 @@ hr {
   }
 }
 
-#notesMarginLOLXDUWU {
-  font-size: 60px;
+#notesMargin {
+  font-size: 55px;
+  margin: 25px 0px !important;
+  font-family: "Raleway", sans-serif !important;
 }
 
 @media screen and (min-width: 901px) {

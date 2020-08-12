@@ -87,6 +87,9 @@ h2{
 #byTitle{
     // color: #c83cff
     font-size: 20px;
+    font-family: "Open-Sans", sans-serif;
+    padding-bottom: 5px;
+
 }
 #title{
     margin: 25px 0;
@@ -232,6 +235,7 @@ h2{
     // color: green;
     padding: 03px 0px;
     font-size: 18px;
+    font-family: "Open-Sans", sans-serif;
 }
 @media screen and (max-width: 1100px){
     .col-sm-10{

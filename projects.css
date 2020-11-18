@@ -184,6 +184,17 @@ img {
   mix-blend-mode: multiply;
 }
 
+.project #baula {
+  margin-left: -15px;
+  margin-top: 0px;
+  height: 150px;
+  width: auto;
+  mix-blend-mode: multiply;
+  padding-top: 0px;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
 .flexer {
   display: -webkit-box;
   display: -ms-flexbox;

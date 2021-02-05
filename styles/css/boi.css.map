@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,KAAK;CAKpB;;AAND,AAGI,IAHA,CAGA,GAAG,CAAC;EACA,UAAU,EAAE,GAAG;CAClB",
+    "sources": [
+        "boi.scss"
+    ],
+    "names": [],
+    "file": "boi.css"
+}

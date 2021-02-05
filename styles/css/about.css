@@ -1,0 +1,112 @@
+#about {
+  margin-top: 70px;
+  font-size: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 10px;
+}
+
+.flexy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-flow: row wrap !important;
+          flex-flow: row wrap !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#aboutText {
+  font-size: 28px;
+}
+
+.leftAbout {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 37em;
+  max-height: 37em;
+  min-width: 17em;
+  width: 37em;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pcimage {
+  text-align: center;
+}
+
+.imagee {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-height: 70%;
+  max-width: 70%;
+  margin-top: 100px;
+  border: 3px rgba(255, 255, 255, 0.842) solid;
+}
+
+@media screen and (min-width: 901px) {
+  body {
+    background-color: green;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: row wrap !important;
+            flex-flow: row wrap !important;
+    -ms-flex-direction: row !important;
+        flex-direction: row !important;
+  }
+}
+
+#textAbout {
+  margin-top: 30px;
+}
+
+#textAbout h3 {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) and (max-height: 1000px) {
+  .imagee {
+    max-height: 85%;
+    max-width: 85%;
+    margin-bottom: 0px;
+  }
+  #textAbout {
+    min-height: 0em;
+    max-height: 100em;
+  }
+  #imageLeft {
+    min-height: 0em;
+    max-height: 100em;
+  }
+}
+
+@media screen and (min-height: 50px) and (max-height: 900px) and (max-width: 500px) {
+  .leftAbout {
+    margin-top: 0px !important;
+  }
+  .leftAbout .imagee {
+    margin-top: 30px !important;
+  }
+  #about {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

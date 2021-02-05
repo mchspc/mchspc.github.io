@@ -1,0 +1,247 @@
+.container {
+  color: white;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  width: 20vw;
+}
+
+.boxes {
+  border: rgba(209, 209, 209, 0.171) solid 5px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #222222;
+  text-decoration: none;
+  color: white;
+  z-index: 45;
+  max-width: 30em;
+  margin: 20px 20px;
+  text-align: left;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
+}
+
+img {
+  fill: white;
+}
+
+.col-sm-6 {
+  text-align: left;
+  margin-right: 0px;
+  margin-left: 0px;
+  vertical-align: center;
+  margin-bottom: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-sm-10 {
+  max-width: 20em;
+  margin-left: 100px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.col-sm-2 {
+  margin-right: 00px;
+}
+
+.row {
+  position: relative;
+}
+
+.dropdown-toggle {
+  width: 80%;
+  -webkit-transform: translate(12.5%, 0%);
+          transform: translate(12.5%, 0%);
+  z-index: 1 !important;
+}
+
+.dropdown-menu {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1 !important;
+}
+
+.dropdown {
+  margin-bottom: 30px;
+  z-index: 1 !important;
+}
+
+.dropdown-menu.show {
+  width: 100%;
+  position: absolute;
+  margin-bottom: 200px;
+  background-color: green;
+  z-index: 1 !important;
+}
+
+#byTitle {
+  font-size: 20px;
+  font-family: "Open-Sans", sans-serif;
+  padding-bottom: 5px;
+}
+
+#title {
+  margin: 25px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 55px;
+}
+
+img {
+  margin-top: 17px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#projectsLink {
+  text-decoration: none;
+  color: white;
+}
+
+#instructions {
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+}
+
+.project {
+  height: 390px;
+  border-radius: 0;
+  border: 4px solid white;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  max-width: 20em;
+  min-height: 20em;
+  border: white solid 3px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.project #danky {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 200%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #kidz {
+  margin-left: -15px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #yoshi {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #diary {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #pikachu {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #bit {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #tic {
+  margin-left: -35px;
+  margin-top: 0px;
+  width: 120%;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+.project #baula {
+  margin-left: -15px;
+  margin-top: 0px;
+  height: 150px;
+  width: auto;
+  mix-blend-mode: multiply;
+  padding-top: 0px;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.flexer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: 80em;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+#description {
+  margin-top: 0px;
+  padding: 03px 0px;
+  font-size: 18px;
+  font-family: "Open-Sans", sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+  .col-sm-10 {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .col-sm-6 {
+    text-align: center;
+  }
+  .col-sm-10 {
+    margin-left: 00px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .col-sm-6 {
+    text-align: center;
+  }
+  .col-sm-10 {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=projects.css.map */

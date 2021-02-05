@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,IAAI;CAEf;;AACD,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,KACZ;CAAC",
+    "sources": [
+        "indexspecific.scss"
+    ],
+    "names": [],
+    "file": "indexspecific.css"
+}

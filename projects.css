@@ -1,7 +1,10 @@
 .container {
   color: white;
-  justify-content: flex-start !important;
-  align-content: flex-start;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
   width: 20vw;
 }
 
@@ -16,7 +19,8 @@
   max-width: 30em;
   margin: 20px 20px;
   text-align: left;
-  transition: 0.2s ease all;
+  -webkit-transition: .2s ease all;
+  transition: .2s ease all;
 }
 
 img {
@@ -29,8 +33,11 @@ img {
   margin-left: 0px;
   vertical-align: center;
   margin-bottom: 40px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .col-sm-10 {
   max-width: 20em;
   margin-left: 100px;
@@ -39,7 +46,7 @@ img {
 }
 
 .col-sm-2 {
-  margin-right: 0px;
+  margin-right: 00px;
 }
 
 .row {
@@ -48,7 +55,8 @@ img {
 
 .dropdown-toggle {
   width: 80%;
-  transform: translate(12.5%, 0%);
+  -webkit-transform: translate(12.5%, 0%);
+          transform: translate(12.5%, 0%);
   z-index: 1 !important;
 }
 
@@ -109,13 +117,17 @@ img {
   overflow: hidden;
   margin-left: 15px;
   margin-right: 15px;
-  flex-flow: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
   max-width: 20em;
   min-height: 20em;
   border: white solid 3px;
   text-align: center;
   padding-bottom: 20px;
 }
+
 .project #danky {
   margin-left: -35px;
   margin-top: 0px;
@@ -123,6 +135,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #kidz {
   margin-left: -15px;
   margin-top: 0px;
@@ -130,6 +143,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #yoshi {
   margin-left: -35px;
   margin-top: 0px;
@@ -137,6 +151,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #diary {
   margin-left: -35px;
   margin-top: 0px;
@@ -144,6 +159,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #pikachu {
   margin-left: -35px;
   margin-top: 0px;
@@ -151,6 +167,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #bit {
   margin-left: -35px;
   margin-top: 0px;
@@ -158,6 +175,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #tic {
   margin-left: -35px;
   margin-top: 0px;
@@ -165,6 +183,7 @@ img {
   height: 150px;
   mix-blend-mode: multiply;
 }
+
 .project #baula {
   margin-left: -15px;
   margin-top: 0px;
@@ -172,12 +191,21 @@ img {
   width: auto;
   mix-blend-mode: multiply;
   padding-top: 0px;
-  transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
+
 .flexer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   max-width: 80em;
 }
 
@@ -187,7 +215,7 @@ h2 {
 
 #description {
   margin-top: 0px;
-  padding: 3px 0px;
+  padding: 03px 0px;
   font-size: 18px;
   font-family: "Open-Sans", sans-serif;
 }
@@ -198,21 +226,22 @@ h2 {
     margin-top: 10px;
   }
 }
+
 @media screen and (max-width: 650px) {
   .col-sm-6 {
     text-align: center;
   }
-
   .col-sm-10 {
-    margin-left: 0px;
+    margin-left: 00px;
   }
 }
+
 @media screen and (max-width: 400px) {
   .col-sm-6 {
     text-align: center;
   }
-
   .col-sm-10 {
     margin-left: 0px;
   }
-}/*# sourceMappingURL=projects.css.map */
+}
+/*# sourceMappingURL=projects.css.map */

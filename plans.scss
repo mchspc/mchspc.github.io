@@ -216,7 +216,13 @@ hr{
         list-style-type: none;
     }
 }
-
+svg{
+    width: 55%;
+    height: auto;
+    fill: $purpleMain;
+    margin-bottom: 12%;
+    margin-top: 3%;
+}
 @media screen and (max-width: 980px){
     nav ul{
         margin-right: 0px !important;

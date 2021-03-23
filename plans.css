@@ -1,7 +1,5 @@
 .container {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 body {
@@ -10,16 +8,9 @@ body {
 }
 
 .flexner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .navbar {
@@ -38,37 +29,28 @@ body {
   min-height: 17em;
   max-height: 20em;
   background-color: #222222;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-decoration: none;
   color: white;
   z-index: 45;
   min-width: 20em;
   margin: 20px 50px;
   text-align: center;
-  -webkit-transition: .2s ease all;
-  transition: .2s ease all;
+  transition: 0.2s ease all;
 }
-
 .tiles .slideyboy {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
+  transform: translateY(-100%);
 }
-
 .tiles h2 {
   font-size: 35px;
   margin: 0px 0px;
 }
-
 .tiles:hover {
   border: #c83cff solid 5px;
 }
 
 .slideyboy {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
   color: transparent;
 }
 
@@ -78,32 +60,21 @@ body {
 
 .left-image {
   text-align: left !important;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: flex-start;
   display: flex;
 }
 
 #picture {
   color: #c83cff;
   font-size: 170px !important;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -ms-flex-line-pack: left;
-      align-content: left;
-  -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  justify-content: left;
+  align-content: left;
+  align-self: left;
   text-align: left;
   margin-bottom: 40px;
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100vh;
 }
@@ -172,24 +143,16 @@ hr {
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-left: 10px;
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
 .headers {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin-left: 10px;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -206,6 +169,7 @@ hr {
   nav ul {
     margin-right: 0px !important;
   }
+
   #join {
     border: transparent 0px solid !important;
     background-color: transparent !important;
@@ -222,17 +186,14 @@ hr {
   #join:active {
     border-top-width: 0 !important;
     border-bottom-width: 0px !important;
-    -webkit-transform: translateY(0px) !important;
-            transform: translateY(0px) !important;
-    -webkit-transform: scaleX(1) scaleY(1) !important;
-            transform: scaleX(1) scaleY(1) !important;
+    transform: translateY(0px) !important;
+    transform: scaleX(1) scaleY(1) !important;
   }
   #join .shrink-border::active {
-    -webkit-transform: translateY(0px) !important;
-            transform: translateY(0px) !important;
-    -webkit-transform: scaleX(1) scaleY(1) !important;
-            transform: scaleX(1) scaleY(1) !important;
+    transform: translateY(0px) !important;
+    transform: scaleX(1) scaleY(1) !important;
   }
+
   #joinlink {
     background-color: white;
     width: 95vw;
@@ -242,7 +203,6 @@ hr {
     background-color: #c83cff;
   }
 }
-
 #notesMargin {
   font-size: 55px;
   margin: 25px 0px !important;
@@ -252,15 +212,10 @@ hr {
 @media screen and (min-width: 901px) {
   body {
     background-color: green;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row !important wrap;
-            flex-flow: row !important wrap;
-    -ms-flex-direction: row !important;
-        flex-direction: row !important;
+    flex-flow: row !important wrap;
+    flex-direction: row !important;
   }
 }
-
 @media screen and (min-device-width: 501px) and (max-width: 900px) {
   body .containery {
     margin-top: 100px;
@@ -283,50 +238,47 @@ hr {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   header {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   body {
     overflow: auto;
     overflow-x: hidden;
   }
 }
-
 @media screen and (max-width: 500px) {
   body {
     overflow: auto;
     position: relative;
   }
+
   .flex {
     height: 150vh;
   }
 }
-
 @media screen and (max-height: 640px) and (max-width: 500px) {
   .container {
     height: 100vh;
   }
 }
-
 @media screen and (min-height: 641px) and (max-height: 730px) and (max-width: 500px) {
   .container {
     height: 120vh;
   }
 }
-
 @media screen and (min-height: 731px) and (max-height: 750px) and (max-width: 500px) {
   .container {
     height: 120vh !important;
   }
 }
-
 @media screen and (max-height: 900px) and (max-width: 500px) {
   .container {
     height: 110vh;
   }
 }
-
 @media screen and (max-height: 700px) and (max-width: 290px) {
   .container {
     height: 110vh;
@@ -351,13 +303,11 @@ hr {
     margin-top: 50px;
   }
 }
-
 .navbar-brand {
   font-size: 27px !important;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #PythonTitle {
   color: transparent;
-}
-/*# sourceMappingURL=plans.css.map */
+}/*# sourceMappingURL=plans.css.map */

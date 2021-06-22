@@ -217,8 +217,8 @@ hr{
     }
 }
 svg{
-    width: 55%;
-    height: auto;
+    max-width: 125pt;
+    max-height: 140pt;
     fill: $purpleMain;
     margin-bottom: 12%;
     margin-top: 3%;

@@ -131,6 +131,9 @@ button:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   z-index: 1;
+  width: 150px;
+  height: 60px;
+  /* comment out width and height if returning to projects button */
 }
 
 .material-bubble:hover {
@@ -158,7 +161,8 @@ button:active {
   position: absolute;
   top: 0;
   left: 0;
-  width: 223px;
+  width: 170px;
+  /* If changing text back to projects, use width of 223px */
   height: 220px;
   background-color: #d66fff;
   border-color: transparent;

@@ -277,7 +277,7 @@ svg{
 @media screen and (min-width: 901px){
     body{
         background-color: green;
-        flex-flow: row !important wrap;
+        flex-flow: row wrap !important;
         flex-direction: row !important;
         #notesMargin{
             // margin-top: 100px;

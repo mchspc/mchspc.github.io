@@ -109,8 +109,8 @@ button:active {
   border: 3px solid #c83cff;
   opacity: 0;
   z-index: -1;
-  -webkit-transform: scaleX(1.1) scaleY(1.3);
-          transform: scaleX(1.1) scaleY(1.3);
+  -webkit-transform: scaleX(1.) scaleY(1.3);
+          transform: scaleX(1.) scaleY(1.3);
   -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: opacity 0.3s, -webkit-transform 0.3s;
   transition: transform 0.3s, opacity 0.3s;
@@ -131,8 +131,8 @@ button:active {
   -webkit-box-shadow: none;
           box-shadow: none;
   z-index: 1;
-  width: 150px;
-  height: 60px;
+  /* width: 150px;
+  height: 60px; */
   /* comment out width and height if returning to projects button */
 }
 
@@ -161,7 +161,7 @@ button:active {
   position: absolute;
   top: 0;
   left: 0;
-  width: 170px;
+  width: 235px;
   /* If changing text back to projects, use width of 223px */
   height: 220px;
   background-color: #d66fff;

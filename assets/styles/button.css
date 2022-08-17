@@ -161,7 +161,7 @@ button:active {
   position: absolute;
   top: 0;
   left: 0;
-  width: 235px;
+  width: 200px;
   /* If changing text back to projects, use width of 223px */
   height: 220px;
   background-color: #d66fff;

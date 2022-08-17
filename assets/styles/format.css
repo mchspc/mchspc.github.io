@@ -16,6 +16,7 @@ body #Note {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   color: #e6e4e1;
+  background-color: #973cbb;
 }
 
 .landing-title {
@@ -62,7 +63,7 @@ nav {
 
 #yeet {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 27px;
+  font-size: 30px;
   text-align: left;
   color: white;
   cursor: pointer;

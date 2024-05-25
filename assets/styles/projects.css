@@ -1,10 +1,10 @@
 .container {
   color: white;
   -webkit-box-pack: start !important;
-      -ms-flex-pack: start !important;
-          justify-content: flex-start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
   -ms-flex-line-pack: start;
-      align-content: flex-start;
+  align-content: flex-start;
   width: 20vw;
 }
 
@@ -34,8 +34,8 @@ img {
   vertical-align: center;
   margin-bottom: 40px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .col-sm-10 {
@@ -56,7 +56,7 @@ img {
 .dropdown-toggle {
   width: 80%;
   -webkit-transform: translate(12.5%, 0%);
-          transform: translate(12.5%, 0%);
+  transform: translate(12.5%, 0%);
   z-index: 1 !important;
 }
 
@@ -95,7 +95,7 @@ img {
 img {
   margin-top: 17px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 #projectsLink {
@@ -113,14 +113,14 @@ img {
   border-radius: 0;
   border: 4px solid white;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   overflow: hidden;
   margin-left: 15px;
   margin-right: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
+  -ms-flex-flow: column;
+  flex-flow: column;
   max-width: 20em;
   min-height: 20em;
   border: white solid 3px;
@@ -192,20 +192,49 @@ img {
   mix-blend-mode: multiply;
   padding-top: 0px;
   -webkit-transform: translateY(0%);
-          transform: translateY(0%);
+  transform: translateY(0%);
 }
+
+/* CROP THE IMAGE BY 32:15 ASPECT RATIO!!! */
+.project #project_image {
+  margin-left: -20px;
+  margin-top: 0px;
+  width: 320px;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+/*
+CROP THE IMAGE BY 32:15 ASPECT RATIO!!!
+.project #fluent {
+  margin-left: -20px;
+  margin-top: 0px;
+  width: 320px;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+
+CROP THE IMAGE BY 32:15 ASPECT RATIO!!!
+.project #webedit {
+  margin-left: -20px;
+  margin-top: 0px;
+  width: 320px;
+  height: 150px;
+  mix-blend-mode: multiply;
+}
+*/
 
 .flexer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   max-width: 80em;
 }
 
@@ -231,6 +260,7 @@ h2 {
   .col-sm-6 {
     text-align: center;
   }
+
   .col-sm-10 {
     margin-left: 00px;
   }
@@ -240,8 +270,10 @@ h2 {
   .col-sm-6 {
     text-align: center;
   }
+
   .col-sm-10 {
     margin-left: 0px;
   }
 }
+
 /*# sourceMappingURL=projects.css.map */
